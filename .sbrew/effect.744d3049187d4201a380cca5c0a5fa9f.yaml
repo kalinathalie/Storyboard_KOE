@@ -1,0 +1,26 @@
+﻿FormatVersion: 6
+Name: "Background 1"
+Script: "Background"
+Config:
+  BackgroundPath:
+    Type: "System.String"
+    Value: ""
+  StartTime:
+    Type: "System.Int32"
+    Value: "0"
+  EndTime:
+    Type: "System.Int32"
+    Value: "0"
+  Opacity:
+    Type: "System.Double"
+    Value: "0.2"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  771c25e50afd4b7180550239adb9809b:
+    Name: ""
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
