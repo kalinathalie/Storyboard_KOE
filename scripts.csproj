@@ -53,6 +53,8 @@
   -->
   <ItemGroup>
     <Compile Include="Background.cs" />
+    <Compile Include="Particles.cs" />
+    <Compile Include="Spectrum.cs" />
   </ItemGroup>
   <ItemGroup />
 </Project>
