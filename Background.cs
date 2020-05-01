@@ -20,6 +20,7 @@ namespace StorybrewScripts
 
         public override void Generate()
         {
+            Log($"{Beatmap.Name}");
             if (BackgroundPath == "") BackgroundPath = Beatmap.BackgroundPath ?? string.Empty;
             if (StartTime == EndTime) EndTime = (int)(Beatmap.HitObjects.LastOrDefault()?.EndTime ?? AudioDuration);
 
