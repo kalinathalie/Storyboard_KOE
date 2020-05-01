@@ -1,7 +1,18 @@
-<<<<<<< HEAD
-# Storyboard_KOE
+# Storyboard for the osu! mapset KOE
+> Storyboard by [K4L1](https://osu.ppy.sh/users/11334594) and [Maot](https://osu.ppy.sh/users/3914271)
 
-`This storyboard was developed by K4L1 and Maot`
+## Using the project
+
+First of all, make sure your *osu!* installation pathing is located at `C:/osu`, your beatmap folder should be named `beatmap-637104724336517424-audio`
+
+After that, clone the repository inside the projects folder in the storybrew installation.
+
+## TODO List
+* [ ] Properly timestamps of the content to the storyboard.
+* [ ] The primary effects (eg. Particles, HitObjects Highlight, Animated Sprites, etc)
+* [ ] Color Matching with the diffs
+* [ ] Music Lyrics
+* [ ] Many other things that i'm lazy to put here.
 
 # Map
 - [Feryquitous - Koe](https://osu.ppy.sh/beatmapsets/1071084 "Feryquitous - Koe") (by K4L1)
@@ -50,20 +61,3 @@ Nominators:
 // *Central de Mapping Brasileiro*
 
 [![Central de Mapping Brasileiro](https://cdn.discordapp.com/icons/312689203341426690/6f5de4063febbecfe52778f0e7b7b972.webp "Central de Mapping Brasileiro")](https://discord.gg/guvd6fC "Central de Mapping Brasileiro")
-=======
-# Storyboard for the osu! mapset KOE
-> Storyboard by [K4L1](https://osu.ppy.sh/users/11334594) and [Maot](https://osu.ppy.sh/users/3914271)
-
-## Using the project
-
-First of all, make sure your *osu!* installation pathing is located at `C:/osu`, your beatmap folder should be named `beatmap-637104724336517424-audio`
-
-After that, clone the repository inside the projects folder in the storybrew installation.
-
-## TODO List
-* [ ] Properly timestamps of the content to the storyboard.
-* [ ] The primary effects (eg. Particles, HitObjects Highlight, Animated Sprites, etc)
-* [ ] Color Matching with the diffs
-* [ ] Music Lyrics
-* [ ] Many other things that i'm lazy to put here.
->>>>>>> d12bc9946bc6a962a581e8a1f1de971432d7a7ff
