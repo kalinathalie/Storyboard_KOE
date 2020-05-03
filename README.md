@@ -20,25 +20,68 @@ After that, clone the repository inside the projects folder in the storybrew ins
 **Previews**
 - TODO(streamlabs)
 
+# Hitsound
+
+The mapset has some keysounds on Intro, verses and Outros. You can check the FL Project on "/hitsound/keysound" path.
+
+## Intro
+
+2 pianos.
+
+**Piano 1**
+
+![PianoIntro1](hitsound/piano1.PNG "PianoIntro1")
+
+**Piano 2**
+
+![PianoIntro2](hitsound/piano2.PNG "PianoIntro2")
+
+## Verse 1
+
+Piano that repeate a lot, below has these three structures.
+
+![Verse1](hitsound/verse1.PNG "Verse1")
+
+## Verse 2
+
+Long strings.
+
+![Verse2](hitsound/verse2.PNG "Verse2")
+
+## Kiai
+
+Piano chords.
+
+![Kiai](hitsound/kiai.PNG "Kiai")
+
 # Info
 Programs used:
 - Storybrew -> *for creating every effect (basically whole sb)*
 - Adobe Illustrator -> *image editing*
-- photomosh.com/ -> *image editing*
+- photomosh.com -> *image editing*
 - Sublime Text 3 -> *used for .osb & .osu file text editor*
 - Visual Studio Code -> *used for .osb & .osu file text editor*
+- FL Studio 20 -> *keysound and drumkit for hitsound*
+- Audacity -> *keysound and samples editing for hitsound*
 
 Language:
 - C# -> *the language used in Storybrew*
 
 # Thanks to
 Mappers:
-- Dada: [@dada_38_](https://twitter.com/dada_38_ "@dada_38_")
-- Rensia: [@OsuRensia](https://twitter.com/OsuRensia "@OsuRensia")
-- Maot: [@maotovisk](https://twitter.com/maotovisk "@maotovisk")
-- Nyxa: [@NyxaNX](https://twitter.com/NyxaNX "@NyxaNX")
-- Cheri: [@Cheri_Osu](https://twitter.com/Cheri_Osu "@Cheri_Osu")
-- Sakura Airi: [@SakuraAiriOsu](https://twitter.com/SakuraAiriOsu "SakuraAiriOsu")
+- Dada: [Osu!](https://osu.ppy.sh/u/9119507 "Dada") [Twitter](https://twitter.com/dada_38_ "@dada_38_")
+- Rensia: [Osu!](https://osu.ppy.sh/users/9598254 "Rensia") [Twitter](https://twitter.com/OsuRensia "@OsuRensia")
+- Maot: [Osu!](https://osu.ppy.sh/users/3914271 "Maot") [Twitter](https://twitter.com/maotovisk "@maotovisk")
+- Nyxa: [Osu!](https://osu.ppy.sh/users/3408126 "Nyxa") [Twitter](https://twitter.com/NyxaNX "@NyxaNX")
+- Cheri: [Osu!](https://osu.ppy.sh/u/5226970 "Cheri") [Twitter](https://twitter.com/Cheri_Osu "@Cheri_Osu")
+- Sakura Airi: [Osu!](https://osu.ppy.sh/users/8682057 "Sakura Airi") [Twitter](https://twitter.com/SakuraAiriOsu "@SakuraAiriOsu")
+- Kalindraz: [Osu!](https://osu.ppy.sh/users/2313166 "Kalindraz") [Twitter](https://twitter.com/kalindraz "@Kalindraz")
+- SILENCE PLAYER: [Osu!](https://osu.ppy.sh/users/6381153 "SILENCE PLAYER") [Twitter](https://twitter.com/ItsWinterOsu "@ItsWinterOsu")
+- LMT: [Osu!](https://osu.ppy.sh/users/7262798 "LMT") [Twitter](https://twitter.com/utsmol_ "@utsmol_")
+- reicavera: [Osu!](https://osu.ppy.sh/users/9314703 "reicavera")
+- Nattu: [Osu!](https://osu.ppy.sh/users/1886722 "Nattu")
+- Faito: [Osu!](https://osu.ppy.sh/users/9706291 "Faito")
+- yShadowXOP_: [Osu!](https://osu.ppy.sh/users/7754679 "yShadowXOP_")
 
 Storyboarders:
 - Maot: [@maotovisk](https://twitter.com/maotovisk "@maotovisk") -> *My right hand*
@@ -49,8 +92,8 @@ Nominators:
 
 # Creator
 - Twitter: [@K4L1_FS](https://twitter.com/K4L1_FS "@K4L1_FS")
-- Osu: [K4L1](https://osu.ppy.sh/u/11334594)
-- My Page: [K4L1](https://lucasnathaniel.github.io)
+- Osu: [K4L1](https://osu.ppy.sh/u/11334594 "K4L1")
+- My Page: [K4L1](https://lucasnathaniel.github.io "Github Page")
 
 
 # Links
