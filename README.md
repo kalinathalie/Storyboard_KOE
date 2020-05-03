@@ -63,6 +63,7 @@ Programs used:
 - Visual Studio Code -> *used for .osb & .osu file text editor*
 - FL Studio 20 -> *keysound and drumkit for hitsound*
 - Audacity -> *keysound and samples editing for hitsound*
+- Hitsound Copier -> *to copy from hitsound diff to others*
 
 Language:
 - C# -> *the language used in Storybrew*
