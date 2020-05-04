@@ -79,13 +79,17 @@ Mappers:
 - Kalindraz: [Osu!](https://osu.ppy.sh/users/2313166 "Kalindraz") [Twitter](https://twitter.com/kalindraz "@Kalindraz")
 - SILENCE PLAYER: [Osu!](https://osu.ppy.sh/users/6381153 "SILENCE PLAYER") [Twitter](https://twitter.com/ItsWinterOsu "@ItsWinterOsu")
 - LMT: [Osu!](https://osu.ppy.sh/users/7262798 "LMT") [Twitter](https://twitter.com/utsmol_ "@utsmol_")
+- yShadowXOP_: [Osu!](https://osu.ppy.sh/users/7754679 "yShadowXOP_") [Twitter](https://twitter.com/ShadouXis/ "@ShadouXis")
+- Faito: [Osu!](https://osu.ppy.sh/users/9706291 "Faito") [Twitter](https://twitter.com/LuczLov "@LuczLov")
+- Satellite: [Osu!](https://osu.ppy.sh/users/1661227 "Satellite") [Twitter](https://twitter.com/yuuhei "@yuuhei")
 - reicavera: [Osu!](https://osu.ppy.sh/users/9314703 "reicavera")
 - Nattu: [Osu!](https://osu.ppy.sh/users/1886722 "Nattu")
-- Faito: [Osu!](https://osu.ppy.sh/users/9706291 "Faito")
-- yShadowXOP_: [Osu!](https://osu.ppy.sh/users/7754679 "yShadowXOP_")
 
 Storyboarders:
-- Maot: [@maotovisk](https://twitter.com/maotovisk "@maotovisk") -> *My right hand*
+- Maot: [Osu!](https://osu.ppy.sh/users/3914271 "Maot") [Twitter](https://twitter.com/maotovisk "@maotovisk") -> *My right hand*
+
+Hitsound:
+- Maemi no Yume: [Osu!](https://osu.ppy.sh/users/4377273) [Twitter](https://twitter.com/Maemi_no_yume) -> *The diamond behind of keysound samples, guided me a lot*
 
 Nominators:
 - C:
