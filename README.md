@@ -58,15 +58,18 @@ Piano chords.
 Programs used:
 - Storybrew -> *for creating every effect (basically whole sb)*
 - Adobe Illustrator -> *image editing*
+- Adobe Photoshop -> *image editing*
 - photomosh.com -> *image editing*
 - Sublime Text 3 -> *used for .osb & .osu file text editor*
 - Visual Studio Code -> *used for .osb & .osu file text editor*
 - FL Studio 20 -> *keysound and drumkit for hitsound*
 - Audacity -> *keysound and samples editing for hitsound*
-- Hitsound Copier -> *to copy from hitsound diff to others*
+- Hitsound Copier -> *copy from hitsound diff to others*
+- subtitletools.com -> *Subtitle Shifter for repeat the lyrics on srt file*
 
 Language:
 - C# -> *the language used in Storybrew*
+- python -> *for script somethings*
 
 # Thanks to
 Mappers:
