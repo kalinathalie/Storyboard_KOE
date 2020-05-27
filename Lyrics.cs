@@ -158,8 +158,8 @@ namespace StorybrewScripts{
                             var sprite = layer.CreateSprite(texture.Path, Origin);
                             //begin
                             sprite.Scale(LineStart+aniLyrics-tick(0,0.5)+tick(0,2), FontScale-0.2f);
-                            sprite.Fade(LineStart+aniLyrics-tick(0,0.5)+tick(0,2), LineStart+aniLyrics-tick(0,0.75), 0, 0.4);
-                            sprite.Move(LineStart+aniLyrics-tick(0,0.5)+tick(0,2), LineStart+aniLyrics-tick(0,0.75), position-new Vector2(0, 20), position);
+                            sprite.Fade(LineStart-tick(0,0.75), LineStart-tick(0,1), 0, 0.4);
+                            sprite.Move(LineStart-tick(0,0.75), LineStart-tick(0,1), position-new Vector2(0, 20), position);
                             //pulse
                             sprite.Scale(subtitleLine.StartTime - 50, subtitleLine.StartTime + 50, FontScale-0.2f, FontScale);
                             sprite.Fade(subtitleLine.StartTime - 50, subtitleLine.StartTime + 50, 0.4, 1);

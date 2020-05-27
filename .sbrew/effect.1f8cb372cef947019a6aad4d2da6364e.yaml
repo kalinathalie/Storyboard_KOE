@@ -7,13 +7,13 @@ Config:
     Value: "lyric/fery_words.srt"
   FontName:
     Type: "System.String"
-    Value: "Verdana"
+    Value: "lyric/fanjofey_ah/fanjofey.ttf"
   SpritesPath:
     Type: "System.String"
     Value: "sb/font/fery"
   TimestampSplit:
     Type: "System.String"
-    Value: "72578,74620,75719,76976,79489,82002,84515,87028,89541,92369,92683,213710"
+    Value: "72578,74620,76033,77290,79803,82316,84829,87342,89855,92683,96137,97395,99908,102421,104934,107447,109960,173102,174986,176557,177814,180327,182840,185353,187866,190379,193206,196662,197918,200431,202944,205458,207971,210484,213710"
   TracePath:
     Type: "System.String"
     Value: "sb/font/trace3.png"

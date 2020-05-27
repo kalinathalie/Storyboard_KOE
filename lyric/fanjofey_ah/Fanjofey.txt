@@ -1,0 +1,87 @@
+Fanjofey AH
+===========
+
+Deutsch:
+
+Diese Schriftart ist etwas für "Herr-der-Ringe"-Fans. Das Tolkien-Epos ist ein literarischer Klassiker und nicht zuletzt durch die Film-Trilogien "Herr der Ringe" und "Der Hobbit" bekannt geworden.
+Für seine fiktive Welt "Mittelerde" entwarf R.R. Tolkien ein eigenes Alphabet, "Tengwar". Ursprünglich sei es die Schrift der Elben, aber auch die (von Tolkien erfundenen) Sprachen anderer Völker von Mittelerde lassen sich damit schreiben [1]. 
+
+Fanjofey ist ein lateinisches Alphabet. Aber die Buchstaben nehmen den Duktus der Tengwar-Zeichen auf und geben den Texten ein "Herr-der-Ringe"-Feeling. Einige der Vokalzeichen über und unter den Tengwar-Buchstaben werden - ziemlich wahllos - in der Schwesterschriftart "Fanjofey Leoda" aufgenommen und verstärken den "elbischen" Charakter. 
+
+Gebrauch
+--------
+Diese Schriftart darf für alle nicht gewerblichen Zwecke kostenlos verwendet werden.
+
+Sie dürfen sie für persönliche und private Zwecke verändern und/oder konvertieren. Sie dürfen aber die veränderte oder konvertierte Software nicht weiterverbreiten, außer bei der Verwendung als Webfont zur Anzeige von Text auf Ihrer (nicht-gewerblichen!) Internetseite. Sie dürfen die Webfonts selbst nicht ausdrücklich zum Download anbieten (s.u.).
+
+Weitergabe
+----------
+Sie dürfen dieses Schriftart als Software nur unter folgenden Bedingungen weitergeben, auf Datenträger weiterverbreiten oder auf Ihrer Webseite zum Download anbieten:
+
+1 Sie müssen die Schrift kostenlos weitergeben bzw. zum Download anbieten. Erfolgt die Weitergabe durch Vervielfältigung eines  Datenträgers, ist die Überlassung eines kostenfreien Belegexemplars verpflichtend. Empfängeradresse auf Anfrage.
+
+2 Sie informieren mich per E-Mail oder über das Kontaktformular über die Weiterveröffentlichung. So kann ich Sie über Aktualisierungen informieren und verhindern, daß veraltete Versionen im Netz kursieren.
+
+3 Sie müssen die Schriftart in der ZIP-Datei anbieten, die Sie auf www.fontgrube.de erhalten, das heißt mit dem "digitalen Beipackzettel". Sie dürfen keine Eigenwerbung oder andere Dateien dem ZIP-Archiv hinzufügen und die Schriften nicht mit anderen Schriften zusammen in einem Archiv zusammenfassen.
+
+4 Sie dürfen die Schriften nicht als ausführbare Datei (z.B. Installer) oder über den Download einer ausführbaren Datei (z.B. Download-Manager) anbieten.
+
+5 Sie dürfen über die Lizenzbedingungen auf Ihrer Seite oder auf dem Datenträger keine falschen oder irreführenden Angaben machen. Wenn Sie die Schrift als "Freeware" bezeichnen, muß deutlich werden, daß das nur für den nichtgewerblichen Gebrauch gilt.
+
+6 Sie dürfen keine veränderten oder in andere Formate konvertierten Versionen weiterverbreiten oder veröffentlichen, außer zum Anzeigen von Text auf einer Internetseite (Webfonts, s.o.) Der Font darf nicht als Webfont ausdrücklich zum Download angeboten werden. 
+
+Wenn Sie die Schriftart weiterempfehlen wollen, verweisen Sie auf die Webseite fontgrube.de. Dort finden sie auch Informationen über gewerbliche Lizenzen.
+
+April 2013
+Andreas Höfeld
+fontgrube.de
+
+________________
+[1] vgl. http://www.cinga.ch/langmaking/DTM/dtm.html  http://de.wikipedia.org/wiki/Tengwar
+
+=====================================================
+
+English:
+
+This typeface is for all fans of "Lord of the Rings", the literary classic by R.R. Tolkien, recently popular through the LOTR and Hobbit trilogies.
+For his fictional world "Middle Earth" Tolkien designed the "Tengwar" alphabet. Supposedly the writing of the Elves, Tolkien also used it to write the languages (invented by himself) of other races in Middle Earth.[1]
+
+Fanjofey is a latin alphabet - using many traits of the Tengwar letters, thus giving your texts a "Lord-of-the-Rings" look and feel. Some of the vowel signs above and below the letters are added in the companion typeface "Fanjofey Leoda", enhancing the "Elvish" feeling.
+
+Usage
+-----
+Feel free to use this font to produce printed text on any media for all personal or non-commercial, non-profit projects you like.
+
+You may modify the font software or convert it to other formats for your personal and non-commercial needs only. You may not share or distribute the modified or converted font, except to display text on your (non-commercial) web site (usage as webfont). You may not explicitly offer the font in webfont format conversion for download.
+
+Usage
+-----
+Use this font to produce printed text on any media for all personal or non-commercial, non-profit projects you like.
+
+You may modify the font software or convert it to other formats for your personal and non-commercial needs only. You may not share or distribute the modified or converted font, except to display text on your (non-commercial) web site (usage as webfont). You may not explicitly offer the font in webfont format for download.
+
+Sharing and Distribution
+------------------------
+You may share or distribute this font software via internet or on storage media under the following conditions only:
+
+1 You may not charge a fee for the font software download, but you may ask money for the storage media (e.g. CD-ROM). Producing storage media with the font software requires sending me a free specimen copy. Address on request.
+
+2 You inform me via e-mail or the contact form on fontgrube.de about the redistribution of my font, so I can inform you about update versions and prevent obsolete versions from circling the internet.
+
+3 You must distribute the font in a ZIP archive as available on fontgrube.de, that is together with the readme file. Distributing the font without this readme is illegal. You may not add other files to the archive, like advertising messages or other fonts. You may not bundle this font with other fonts in one archive file.
+
+4 You may not offer this font as an executable file (e.g. self-extracting archive or installer) nor offer the download via download manager or other software that the users must run or install on their computer to get the font.
+
+5 You may not give wrong or misleading information on the license conditions, e.g.: offering this font as "freeware" must specify that this is for non-commercial use only.
+
+6 You may not distribute modified or converted versions of this font software, except to display text on your web site (webfonts). This exception does not imply explicitly offering webfonts made from this font for download.
+
+Refer others to fontgrube.de to recommend this typeface. If you want to use the font to make money or use any work produced with this font commercially, check fontgrube.de for commercial licenses.
+
+
+April 2013
+Andreas Höfeld
+fontgrube.de
+
+_________________
+[1] cf. http://en.wikipedia.org/wiki/Tengwar
