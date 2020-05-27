@@ -10,7 +10,7 @@ Config:
     Value: "0"
   Opacity:
     Type: "System.Double"
-    Value: "1"
+    Value: "0"
   RandomSeed:
     Type: "System.Int32"
     Value: "0"
@@ -19,5 +19,5 @@ Layers:
   771c25e50afd4b7180550239adb9809b:
     Name: ""
     OsbLayer: Background
-    DiffSpecific: No
+    DiffSpecific: Yes
     Visible: Yes
