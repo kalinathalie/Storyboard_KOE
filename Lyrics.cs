@@ -154,6 +154,10 @@ namespace StorybrewScripts{
                             var position = new Vector2(letterX+RunLine, letterY)
                             + texture.OffsetFor(Origin) * FontScale;
                             var sprite = layer.CreateSprite(texture.Path, Origin);
+                            if(letter == '$'){
+                                letterX += texture.BaseWidth * FontScale;
+                                continue;
+                            }
                             //begin
                             sprite.Scale(LineStart+aniLyrics-tick(0,0.5)+tick(0,2), FontScale-0.2f);
                             sprite.Fade(LineStart-tick(0,0.75), LineStart-tick(0,1), 0, 0.4);
