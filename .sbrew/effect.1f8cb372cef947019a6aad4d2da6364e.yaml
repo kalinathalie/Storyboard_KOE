@@ -14,12 +14,15 @@ Config:
   TimestampSplit:
     Type: "System.String"
     Value: "72578,74620,76033,77290,79803,82316,84829,87342,89855,92683,96137,97395,99908,102421,104934,107447,109960,173102,174986,176557,177814,180327,182840,185353,187866,190379,193206,196662,197918,200431,202944,205458,207971,210484,213710"
+  TraceSplit:
+    Type: "System.String"
+    Value: "72578,113102;173102,213625"
   TracePath:
     Type: "System.String"
     Value: "sb/font/trace3.png"
   FontSize:
     Type: "System.Int32"
-    Value: "40"
+    Value: "45"
   FontScale:
     Type: "System.Single"
     Value: "0.6"
@@ -55,13 +58,10 @@ Config:
     Value: "-40"
   SubtitleY:
     Type: "System.Single"
-    Value: "387"
-  StartTrace:
-    Type: "System.Int32"
-    Value: "72578"
-  EndTrace:
-    Type: "System.Int32"
-    Value: "213762"
+    Value: "380"
+  TraceOpacity:
+    Type: "System.Single"
+    Value: "0.75"
   TrimTransparency:
     Type: "System.Boolean"
     Value: "True"
