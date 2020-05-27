@@ -23,6 +23,9 @@ namespace StorybrewScripts{
         public string TimestampSplit = "";
 
         [Configurable]
+        public string TraceSplit = "";
+
+        [Configurable]
         public string TracePath = "";
 
         [Configurable]
@@ -59,10 +62,7 @@ namespace StorybrewScripts{
         public float SubtitleY = 400;
 
         [Configurable]
-        public int StartTrace = 0;
-
-        [Configurable]
-        public int EndTrace = 0;
+        public float TraceOpacity = 0;
 
         [Configurable]
         public bool TrimTransparency = true;
@@ -100,10 +100,10 @@ namespace StorybrewScripts{
             });
 
             var subtitles = LoadSubtitles(SubtitlesPath);
-            generatePerCharacter(font, subtitles, layer, TimestampSplit);
+            generatePerCharacter(font, subtitles, layer, TimestampSplit, TraceSplit);
         }
 
-        public void generatePerCharacter(FontGenerator font, SubtitleSet subtitles, StoryboardLayer layer, string TimestampSplit){
+        public void generatePerCharacter(FontGenerator font, SubtitleSet subtitles, StoryboardLayer layer, string TimestampSplit, string TraceSplit){
             
             var TimestampArray = Array.ConvertAll(TimestampSplit.Split(','), s => int.Parse(s));
             var LineStart = 0;
@@ -111,23 +111,21 @@ namespace StorybrewScripts{
             var RunLine = 0f;
             var aniLyrics = 0;
 
-            var trace = layer.CreateSprite(TracePath, OsbOrigin.Centre);
+            //Trace part
 
-            if(StartTrace == 49997){
+            foreach( var TraceTime in TraceSplit.Split(';')){
+                var trace = layer.CreateSprite(TracePath, OsbOrigin.Centre);
+                var TraceTimeSplited = Array.ConvertAll(TraceTime.Split(','), s => int.Parse(s));
+                var StartTrace = TraceTimeSplited[0];
+                var EndTrace = TraceTimeSplited[1];
                 trace.Move(StartTrace-tick(0, 2)-tick(0,1), StartTrace-tick(0,1), new Vector2(-120,400),new Vector2(70,400));
-                trace.Fade(StartTrace-tick(0, 2)-tick(0,1), StartTrace-tick(0,1), 0, 0.65);
+                trace.Fade(StartTrace-tick(0, 2)-tick(0,1), StartTrace-tick(0,1), 0, TraceOpacity);
                 trace.ScaleVec(StartTrace-tick(0, 2)-tick(0,1), StartTrace-tick(0,1), 0, 0.15, 0.22, 0.15);
                 trace.Color(StartTrace-tick(0, 2)-tick(0,1), 0, 0, 0);
-                trace.Fade(EndTrace-tick(0, 0.5), EndTrace, 0.65, 0);
-            }else{
-                trace.FlipH(StartTrace-tick(0, 2)-tick(0,1), EndTrace);
-                trace.FlipV(StartTrace-tick(0, 2)-tick(0,1), EndTrace);
-                trace.Move(StartTrace-tick(0, 2)-tick(0,1), StartTrace-tick(0,1), new Vector2(730,400),new Vector2(540,400));
-                trace.Fade(StartTrace-tick(0, 2)-tick(0,1), StartTrace-tick(0,1), 0, 0.65);
-                trace.ScaleVec(StartTrace-tick(0, 2)-tick(0,1), StartTrace-tick(0,1), 0, 0.15, 0.22, 0.15);
-                trace.Color(StartTrace-tick(0, 2)-tick(0,1), 0, 0, 0);
-                trace.Fade(EndTrace-tick(0, 0.5), EndTrace, 0.65, 0);
+                trace.Fade(EndTrace-tick(0, 0.5), EndTrace, TraceOpacity, 0);
             }
+
+            //End Trace part
 
             foreach (var subtitleLine in subtitles.Lines){
                 foreach (var line in subtitleLine.Text.Split('\0')){
