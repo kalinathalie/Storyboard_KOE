@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Background.cs" />
     <Compile Include="Lyrics.cs" />
+    <Compile Include="Parallax.cs" />
     <Compile Include="Particles.cs" />
     <Compile Include="Spectrum.cs" />
   </ItemGroup>
