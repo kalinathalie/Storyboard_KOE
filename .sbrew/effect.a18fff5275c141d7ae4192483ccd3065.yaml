@@ -25,7 +25,7 @@ Config:
     Value: "sb/bar.png"
   AngleRotation:
     Type: "System.Int32"
-    Value: "0"
+    Value: "30"
   SpriteOrigin:
     Type: "System.Int32"
     Value: "3"

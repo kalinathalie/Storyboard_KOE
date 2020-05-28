@@ -5,7 +5,7 @@ ideias: google imagens->line vector
 
 00:00:117 - 00:22:630 - Particulas subindo, comecando com um pontinho e depois virando poliginos e aumentando a velocidade, as 2 cores que o povo escolheu: fundo X objeto Y, e alternando entre fundo Y e objetos X, no final, um grande clarao
 00:22:630 - 00:42:735 - Spectrum 2D
-00:42:735 - 01:02:840 - Spectrum em 3D
+00:42:735 - 01:02:840 - Spectrum em 3D | Efeito recursivo https://66.media.tumblr.com/30bda170e30b4fab2261ceffba0603c0/tumblr_nhkthhRFxv1txeruoo1_r1_500.gif
 01:02:840 - 01:12:578 - Varios objetos loucos
 01:12:892 - 01:33:311 - Kiai
 01:35:510 - 01:53:102 - Kiai
