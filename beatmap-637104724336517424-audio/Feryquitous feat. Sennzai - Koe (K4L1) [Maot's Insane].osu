@@ -1,4 +1,4 @@
-osu file format v14
+﻿osu file format v14
 
 [General]
 AudioFilename: audio.mp3
@@ -47,10 +47,13 @@ SliderTickRate:1
 2,133406,142659
 2,173616,192606
 //Storyboard Layer 0 (Background)
+Sprite,Background,Centre,"Maot.jpg",320,240
+ S,0,0,,0.6225681
+ F,0,-500,0,0,1
+ F,0,213625,214125,1,0
 //Storyboard Layer 1 (Fail)
 //Storyboard Layer 2 (Pass)
 //Storyboard Layer 3 (Foreground)
-//Storyboard Layer 4 (Overlay)
 //Storyboard Sound Samples
 
 [TimingPoints]
