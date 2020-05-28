@@ -2,15 +2,6 @@
 Name: "Background 1"
 Script: "Background"
 Config:
-  StartTime:
-    Type: "System.Int32"
-    Value: "0"
-  EndTime:
-    Type: "System.Int32"
-    Value: "0"
-  Opacity:
-    Type: "System.Double"
-    Value: "0"
   RandomSeed:
     Type: "System.Int32"
     Value: "0"

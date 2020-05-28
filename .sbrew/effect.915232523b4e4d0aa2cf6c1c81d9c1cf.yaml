@@ -1,13 +1,13 @@
 ﻿FormatVersion: 6
-Name: "Parallax 1"
+Name: "Parallax 2"
 Script: "Parallax"
 Config:
   StartTime:
     Type: "System.Int32"
-    Value: "72892"
+    Value: "95510"
   EndTime:
     Type: "System.Int32"
-    Value: "92997"
+    Value: "113102"
   BeatDivisor:
     Type: "System.Int32"
     Value: "8"
@@ -67,8 +67,8 @@ Config:
     Value: "0"
     DisplayName: "Random seed"
 Layers:
-  49250d068ee64512899e723d2191ff7e:
+  26d79e6ee7bf436b914fcb970f385696:
     Name: "Parallax"
     OsbLayer: Background
-    DiffSpecific: Yes
+    DiffSpecific: No
     Visible: Yes

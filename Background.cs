@@ -6,23 +6,22 @@ using System.Collections.Generic;
 namespace StorybrewScripts{
     public class Background : StoryboardObjectGenerator{
 
-        [Configurable]
-        public int StartTime = 0;
-
-        [Configurable]
-        public int EndTime = 0;
-
-        [Configurable]
-        public double Opacity = 0.2;
+        // AQUI EH TUDO NA MAO PORRA
 
         public override void Generate(){
-            if (StartTime == EndTime) EndTime = (int)(Beatmap.HitObjects.LastOrDefault()?.EndTime ?? AudioDuration);
             var BackgroundPath = get_bg(Beatmap.Name);
             var bitmap = GetMapsetBitmap(BackgroundPath);
             var bg = GetLayer("").CreateSprite(BackgroundPath, OsbOrigin.Centre);
-            bg.Scale(StartTime, 480.0f / bitmap.Height);
-            bg.Fade(StartTime - 500, StartTime, 0, Opacity);
-            bg.Fade(EndTime, EndTime + 500, Opacity, 0);
+            bg.Scale(0, 480.0f / bitmap.Height);
+            bg.Fade((OsbEasing)6, 0, 2526, 0, 0.5);
+            bg.Fade(2526, 10065, 0.2, 0.2);
+            bg.Fade(10065, 12578, 0.2, 0.5);
+            bg.Fade(22630, 41478, 0.5, 0.5);
+            bg.Fade((OsbEasing)6, 41478, 42735, 0.5, 0);
+
+            bg.Fade(113102, 131950, 0.5, 0.5);
+            bg.Fade((OsbEasing)6, 131950, 133206, 0.5, 0);
+
         }
 
         string get_bg(string diff_name){

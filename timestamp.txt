@@ -10,12 +10,20 @@ ideias: google imagens->line vector
 01:12:892 - 01:33:311 - Kiai
 01:35:510 - 01:53:102 - Kiai
 01:53:101 - 02:13:206 - Spectrum 2D
-02:13:206 - 02:22:630 - Mapper, Storyboarder, Hitsounder com Pontos/linhas #https://www.hackthebox.eu/
-02:23:259 - 02:33:311 - Pontos/linhas #https://www.hackthebox.eu/
-02:33:311 - 02:43:363 - Varios objetos loucos com Pontos/linhas #https://www.hackthebox.eu/
+02:13:206 - 02:22:630 - Mapper, Storyboarder, Hitsounder com Pontos/linhas Particles
+02:23:259 - 02:33:311 - Pontos/linhas Particles
+02:33:311 - 02:43:363 - Varios objetos loucos com Pontos/linhas Particles
 02:43:363 - 02:52:787 - Varios objetos loucos igual do primeiro
-02:53:416 - 03:13:206 - BG de cada pessoa com Pontos/linhas #https://www.hackthebox.eu/
+02:53:416 - 03:13:206 - BG de cada pessoa com Pontos/linhas Particles
 03:16:033 - 03:33:625 - Kiai
+
+Pontos/linhas Particles{
+	https://trcshqueen.tumblr.com/post/139284234856/web-resource-how-to-web-particles
+	https://www.hackthebox.eu/
+	https://onextrapixel.com/20-codepen-solutions-for-awesome-mouse-effects/
+	https://github.com/ottis/canvas-particles/blob/master/README.md
+	https://vincentgarreau.com/particles.js/
+}
 
 Kiai{
 	BG de cada mapper
