@@ -97,7 +97,7 @@ namespace StorybrewScripts
                 else
                     bar.ColorHsb(startTime, endTime, colorEnd, 1, 1, colorStart, 1, 1);
                 bar.Additive(startTime, endTime);
-                bar.Rotate(startTime, MathHelper.DegreesToRadians(30));
+                bar.Rotate(startTime, MathHelper.DegreesToRadians(AngleRotation));
 
                 bar.Fade((OsbEasing)6, endTime-tick(0, 1), endTime, 1, 0);
 
