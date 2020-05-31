@@ -85,6 +85,7 @@ Mappers:
 - yShadowXOP_: [Osu!](https://osu.ppy.sh/users/7754679 "yShadowXOP_") [Twitter](https://twitter.com/ShadouXis/ "@ShadouXis")
 - Faito: [Osu!](https://osu.ppy.sh/users/9706291 "Faito") [Twitter](https://twitter.com/LuczLov "@LuczLov")
 - Satellite: [Osu!](https://osu.ppy.sh/users/1661227 "Satellite") [Twitter](https://twitter.com/yuuhei "@yuuhei")
+- Ciyus Miapah: [Osu!](https://osu.ppy.sh/users/2805457 "Ciyus Miapah") [Twitter](https://twitter.com/Fort_exe "@Fort_exe")
 - reicavera: [Osu!](https://osu.ppy.sh/users/9314703 "reicavera")
 - Nattu: [Osu!](https://osu.ppy.sh/users/1886722 "Nattu")
 
