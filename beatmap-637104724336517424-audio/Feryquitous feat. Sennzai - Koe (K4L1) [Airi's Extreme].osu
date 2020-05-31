@@ -5,7 +5,7 @@ AudioFilename: audio.mp3
 AudioLeadIn: 0
 PreviewTime: 192971
 Countdown: 0
-SampleSet: Drum
+SampleSet: None
 StackLeniency: 0.2
 Mode: 0
 LetterboxInBreaks: 0
@@ -27,8 +27,8 @@ ArtistUnicode:Feryquitous feat. Sennzai
 Creator:K4L1
 Version:Airi's Extreme
 Source:
-Tags:LMT Rensia reicavera Maot Dada Faito Nattu yShadowXOP_ Sakura Airi Nyxa Kalindraz Cheri SILENCE PLAYER Satellite Rhuzerv Irui Diverse System C93 Deemo
-BeatmapID:2243466
+Tags:LMT Rensia reicavera Maot Dada Faito Nattu yShadowXOP_ Sakura Airi Nyxa Kalindraz Hailie Cheri SILENCE PLAYER Satellite Ciyus miapah fort ciyusmiapah Rhuzerv Irui Diverse System C93 Deemo
+BeatmapID:2465619
 BeatmapSetID:1071084
 
 [Difficulty]
