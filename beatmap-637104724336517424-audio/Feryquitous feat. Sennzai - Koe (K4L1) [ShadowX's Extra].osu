@@ -1,11 +1,11 @@
-﻿osu file format v14
+osu file format v14
 
 [General]
 AudioFilename: audio.mp3
 AudioLeadIn: 0
-PreviewTime: 192972
+PreviewTime: 192971
 Countdown: 0
-SampleSet: None
+SampleSet: Soft
 StackLeniency: 0.5
 Mode: 0
 LetterboxInBreaks: 0
@@ -27,7 +27,7 @@ ArtistUnicode:Feryquitous feat. Sennzai
 Creator:K4L1
 Version:ShadowX's Extra
 Source:
-Tags:LMT Rensia reicavera Maot Dada Faito Nattu yShadowXOP_ Sakura Airi Nyxa Kalindraz Hailie Cheri SILENCE PLAYER Satellite Ciyus miapah fort ciyusmiapah Rhuzerv Irui Diverse System C93 Deemo
+Tags:LMT Rensia reicavera Maot Dada Faito Nattu yShadowXOP_ Sakura Airi Nyxa Kalindraz Hailie DJ Lucky DJ_Lucky Cheri Net0 Satellite Ciyus miapah fort ciyusmiapah Rhuzerv Irui Diverse System C93 Deemo
 BeatmapID:2411904
 BeatmapSetID:1071084
 
@@ -47,12 +47,13 @@ SliderTickRate:1
 2,56914,172891
 //Storyboard Layer 0 (Background)
 Sprite,Background,Centre,"ShadowX.png",320,240
- S,0,0,,0.4444444
  F,0,-500,0,0,1
+ S,0,0,,0.4444444
  F,0,177734,178234,1,0
 //Storyboard Layer 1 (Fail)
 //Storyboard Layer 2 (Pass)
 //Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
 //Storyboard Sound Samples
 
 [TimingPoints]
