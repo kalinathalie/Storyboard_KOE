@@ -80,7 +80,7 @@ Mappers:
 - Cheri: [Osu!](https://osu.ppy.sh/u/5226970 "Cheri") [Twitter](https://twitter.com/Cheri_Osu "@Cheri_Osu")
 - Sakura Airi: [Osu!](https://osu.ppy.sh/users/8682057 "Sakura Airi") [Twitter](https://twitter.com/SakuraAiriOsu "@SakuraAiriOsu")
 - Kalindraz: [Osu!](https://osu.ppy.sh/users/2313166 "Kalindraz") [Twitter](https://twitter.com/kalindraz "@Kalindraz")
-- SILENCE PLAYER: [Osu!](https://osu.ppy.sh/users/6381153 "SILENCE PLAYER") [Twitter](https://twitter.com/ItsWinterOsu "@ItsWinterOsu")
+- Net0: [Osu!](https://osu.ppy.sh/users/5099768 "Net0") [Twitter](https://twitter.com/CZNet0 "@CZNet0")
 - LMT: [Osu!](https://osu.ppy.sh/users/7262798 "LMT") [Twitter](https://twitter.com/utsmol_ "@utsmol_")
 - yShadowXOP_: [Osu!](https://osu.ppy.sh/users/7754679 "yShadowXOP_") [Twitter](https://twitter.com/ShadouXis/ "@ShadouXis")
 - Faito: [Osu!](https://osu.ppy.sh/users/9706291 "Faito") [Twitter](https://twitter.com/LuczLov "@LuczLov")
