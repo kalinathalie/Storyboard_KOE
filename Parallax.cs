@@ -114,23 +114,27 @@ namespace StorybrewScripts{
 
         string get_bg(string diff_name){
             Dictionary<string, string> background = new Dictionary<string, string>(){
-                {"Airi's Extreme", "Sakura.jpg"},
-                {"Kalindraz's Ambivalence", "Kalindraz.jpg"},
-                {"LMT's Extreme", "LMT.jpg"},
-                {"Maot's Insane", "Maot.jpg"},
-                {"reicavera's Light Insane", "reicavera.jpg"},
-                {"ShadowX's Extra", "ShadowX.png"},
-                {"Cheri's Extra", "Cheri.jpg"},
-                {"Satellite's Expert", "Satellite.jpg"},
-                {"Nattu's Extra", "Nattu.jpg"},
-                {"Dada's Insane", "Dada.jpg"},
-                {"Rensia's Hard", "Rensia.jpg"},
-                {"Hitsound", "Hitsounding.png"}
+                {"Airi's Extreme", "Airi"},
+                {"Kalindraz's Ambivalence", "Kalindraz"},
+                {"LMT's Extreme", "LMT"},
+                {"Maot's Insane", "Maot"},
+                {"reicavera's Light Insane", "reicavera"},
+                {"ShadowX's Extra", "ShadowX"},
+                {"Cheri's Extra", "Cheri"},
+                {"Satellite's Expert", "Satellite"},
+                {"Nattu's Extra", "Nattu"},
+                {"Dada's Insane", "Dada"},
+                {"Hitsound", "Hitsound"},
+                {"Rhuzerv", "K4L1"},
+                {"Advanced", "K4L1"},
+                {"Rensia's Hard", "Rensia"},
+                {"Faito's Extra", "Faito"}
             };
             if (background.ContainsKey(diff_name)){
-                return background[diff_name];
+                return "sb/bgs/"+background[diff_name]+"/"+background[diff_name]+".jpg";
             }else{
-                return "K4L1.jpg";
+                Log($"{diff_name}");
+                return "Fail";
             }
         }
         double tick(double start, double divisor){

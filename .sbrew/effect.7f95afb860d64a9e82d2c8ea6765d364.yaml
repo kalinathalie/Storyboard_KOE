@@ -67,8 +67,8 @@ Config:
     Value: "0"
     DisplayName: "Random seed"
 Layers:
-  e116a9c4fb174f9e8623f9f5c82d819a:
+  bb5180c76fa947c7b4816d9f00ef781d:
     Name: "Parallax"
     OsbLayer: Background
-    DiffSpecific: No
+    DiffSpecific: Yes
     Visible: Yes
