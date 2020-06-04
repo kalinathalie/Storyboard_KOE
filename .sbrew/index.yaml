@@ -1,14 +1,13 @@
 ﻿FormatVersion: 6
 MapsetPath: "C:/osu/Songs/beatmap-637104724336517424-audio"
-BeatmapId: 2242972
-BeatmapName: "Rhuzerv"
+BeatmapId: 2302033
+BeatmapName: "Kalindraz's Ambivalence"
 Assemblies:
 Layers:
   - "771c25e50afd4b7180550239adb9809b"
-  - "49250d068ee64512899e723d2191ff7e"
-  - "26d79e6ee7bf436b914fcb970f385696"
-  - "e116a9c4fb174f9e8623f9f5c82d819a"
+  - "bb5180c76fa947c7b4816d9f00ef781d"
+  - "2b6601cf32674d48944cbef3b202ac5d"
+  - "b6c7efc09f294ea8bb4870206e197fc7"
   - "b07c4953806f4ad7a0e12fb1c9705072"
-  - "07aac7080d874d71bd05becf5d261bca"
   - "279a1f87363e4d73bf3aeea329a198f1"
   - "e7d77f60dd6b41c5a6d87a00a68e48d6"

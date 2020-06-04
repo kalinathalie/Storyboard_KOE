@@ -8,11 +8,11 @@ First of all, make sure your *osu!* installation pathing is located at `C:/osu`,
 After that, clone the repository inside the projects folder in the storybrew installation.
 
 ## TODO List
-* [ ] Properly timestamps of the content to the storyboard.
-* [ ] The primary effects (eg. Particles, HitObjects Highlight, Animated Sprites, etc)
+* [x] Properly timestamps of the content to the storyboard.
+* [x] Music Lyrics
+* [x] The primary effects (eg. Particles, HitObjects Highlight, Animated Sprites, etc)
 * [ ] Color Matching with the diffs
-* [ ] Music Lyrics
-* [ ] Many other things that i'm lazy to put here.
+* [ ] Many other things that I'm lazy to put here.
 
 # Map
 - [Feryquitous - Koe](https://osu.ppy.sh/beatmapsets/1071084 "Feryquitous - Koe") (by K4L1)
