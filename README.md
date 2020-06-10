@@ -60,6 +60,7 @@ Programs used:
 - Adobe Illustrator -> *image editing*
 - Adobe Photoshop -> *image editing*
 - photomosh.com -> *image editing*
+- paint.net -> *image resize & compress*
 - Sublime Text 3 -> *used for .osb & .osu file text editor*
 - Visual Studio Code -> *used for .osb & .osu file text editor*
 - FL Studio 20 -> *keysound and drumkit for hitsound*

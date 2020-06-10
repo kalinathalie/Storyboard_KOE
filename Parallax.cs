@@ -121,7 +121,7 @@ namespace StorybrewScripts{
                 {"reicavera's Light Insane", "reicavera"},
                 {"ShadowX's Extra", "ShadowX"},
                 {"Cheri's Extra", "Cheri"},
-                {"Satellite's Expert", "Satellite"},
+                {"Satellite's Extra", "Satellite"},
                 {"Nattu's Extra", "Nattu"},
                 {"Dada's Insane", "Dada"},
                 {"Hitsound", "Hitsound"},
