@@ -55,17 +55,24 @@ Piano chords.
 ![Kiai](hitsound/kiai.PNG "Kiai")
 
 # Info
-Programs used:
-- Storybrew -> *for creating every effect (basically whole sb)*
+Image softwares:
 - Adobe Illustrator -> *image editing*
 - Adobe Photoshop -> *image editing*
-- photomosh.com -> *image editing*
+- photomosh.com -> *image effects*
 - paint.net -> *image resize & compress*
-- Sublime Text 3 -> *used for .osb & .osu file text editor*
-- Visual Studio Code -> *used for .osb & .osu file text editor*
+
+Audio softwares:
+- FFmpeg -> *Quick audio editing e.g. convert .wav to .ogg*
 - FL Studio 20 -> *keysound and drumkit for hitsound*
 - Audacity -> *keysound and samples editing for hitsound*
 - Hitsound Copier -> *copy from hitsound diff to others*
+
+IDEs:
+- Sublime Text 3 -> *used for .osb & .osu file text editor*
+- Visual Studio Code -> *used for .osb & .osu file text editor*
+
+Others:
+- Storybrew -> *for creating every effect (basically whole sb)*
 - subtitletools.com -> *Subtitle Shifter for repeat the lyrics on srt file*
 
 Language:
