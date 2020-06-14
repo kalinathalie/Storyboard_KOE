@@ -60,6 +60,7 @@ Image softwares:
 - Adobe Photoshop -> *image editing*
 - photomosh.com -> *image effects*
 - paint.net -> *image resize & compress*
+- ezgif.com -> *image convert*
 
 Audio softwares:
 - FFmpeg -> *Quick audio editing e.g. convert .wav to .ogg*
@@ -84,7 +85,6 @@ Mappers:
 - Dada: [Osu!](https://osu.ppy.sh/u/9119507 "Dada") [Twitter](https://twitter.com/dada_38_ "@dada_38_")
 - Rensia: [Osu!](https://osu.ppy.sh/users/9598254 "Rensia") [Twitter](https://twitter.com/OsuRensia "@OsuRensia")
 - Maot: [Osu!](https://osu.ppy.sh/users/3914271 "Maot") [Twitter](https://twitter.com/maotovisk "@maotovisk")
-- Nyxa: [Osu!](https://osu.ppy.sh/users/3408126 "Nyxa") [Twitter](https://twitter.com/NyxaNX "@NyxaNX")
 - Cheri: [Osu!](https://osu.ppy.sh/u/5226970 "Cheri") [Twitter](https://twitter.com/Cheri_Osu "@Cheri_Osu")
 - Sakura Airi: [Osu!](https://osu.ppy.sh/users/8682057 "Sakura Airi") [Twitter](https://twitter.com/SakuraAiriOsu "@SakuraAiriOsu")
 - Kalindraz: [Osu!](https://osu.ppy.sh/users/2313166 "Kalindraz") [Twitter](https://twitter.com/kalindraz "@Kalindraz")
