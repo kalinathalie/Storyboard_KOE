@@ -40,7 +40,8 @@ namespace StorybrewScripts{
                 {"Rhuzerv", "K4L1"},
                 {"Advanced", "K4L1"},
                 {"Rensia's Hard", "Rensia"},
-                {"Faito's Extra", "Faito"}
+                {"Faito's Extra", "Faito"},
+                {"Ciyus Miapah's Extreme", "Ciyus"}
             };
             if (background.ContainsKey(diff_name)){
                 return "sb/bgs/"+background[diff_name]+"/"+background[diff_name]+".jpg";
