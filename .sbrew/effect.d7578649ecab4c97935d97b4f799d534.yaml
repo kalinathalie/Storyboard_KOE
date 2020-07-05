@@ -1,5 +1,5 @@
 ﻿FormatVersion: 6
-Name: "FractalTriangle 1"
+Name: "FractalTriangle 4"
 Script: "FractalTriangle"
 Config:
   svgPath:
@@ -7,10 +7,10 @@ Config:
     Value: "sb/triangle.png"
   startTime:
     Type: "System.Int32"
-    Value: "22630"
+    Value: "123154"
   endTime:
     Type: "System.Int32"
-    Value: "31426"
+    Value: "131950"
   initalPosition:
     Type: "OpenTK.Vector2"
     Value: "326,-796"
@@ -22,7 +22,7 @@ Config:
     Value: "0"
     DisplayName: "Random seed"
 Layers:
-  219f84f04348403ea3945e263963348a:
+  1439a2e92606410e9c961522a4bd9acd:
     Name: "FractalTriangle"
     OsbLayer: Background
     DiffSpecific: Yes

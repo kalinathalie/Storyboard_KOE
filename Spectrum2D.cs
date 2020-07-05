@@ -90,12 +90,16 @@ namespace StorybrewScripts
 
                 var bar = layer.CreateSprite(SpritePath, SpriteOrigin, new Vector2(Position.X + i * barWidth, Position.Y));
                 var colors = get_color(Beatmap.Name);
-                var colorStart = int.Parse(colors.Split(',')[0]);
-                var colorEnd = int.Parse(colors.Split(',')[1]);
+                var colorOne = int.Parse(colors.Split(',')[0], System.Globalization.CultureInfo.InvariantCulture);
+                var colorTwo = int.Parse(colors.Split(',')[1], System.Globalization.CultureInfo.InvariantCulture);
+                var colorOneSa = double.Parse(colors.Split(',')[2], System.Globalization.CultureInfo.InvariantCulture);
+                var colorOneBra = double.Parse(colors.Split(',')[3], System.Globalization.CultureInfo.InvariantCulture);
+                var colorTwoSa = double.Parse(colors.Split(',')[4], System.Globalization.CultureInfo.InvariantCulture);
+                var colorTwoBra = double.Parse(colors.Split(',')[5], System.Globalization.CultureInfo.InvariantCulture);
                 if(i%2==0)
-                    bar.ColorHsb(startTime, endTime, colorStart, 1, 1, colorEnd, 1, 1);
+                    bar.ColorHsb(startTime, colorOne, colorOneSa, colorOneBra);
                 else
-                    bar.ColorHsb(startTime, endTime, colorEnd, 1, 1, colorStart, 1, 1);
+                    bar.ColorHsb(startTime, colorTwo, colorTwoSa, colorTwoBra);
                 bar.Additive(startTime, endTime);
                 bar.Rotate(startTime, MathHelper.DegreesToRadians(AngleRotation));
 
@@ -109,10 +113,10 @@ namespace StorybrewScripts
                     (start, end) =>
                     {
                         hasScale = true;
-                        bar.ScaleVec(start.Time, end.Time,
+                        bar.ScaleVec((OsbEasing)4, start.Time, end.Time,
                             scaleX, start.Value,
                             scaleX, end.Value);
-                        bar.Move(start.Time, end.Time,
+                        bar.Move((OsbEasing)4, start.Time, end.Time,
                             new Vector2(Position.X + i * barWidth+(start.Value*2.5f), Position.Y-(start.Value*4.33f)),
                             new Vector2(Position.X + i * barWidth+(end.Value*2.5f), Position.Y-(end.Value*4.33f)));
                     },
@@ -125,23 +129,25 @@ namespace StorybrewScripts
 
         string get_color(string diff_name){
             Dictionary<string, string> color = new Dictionary<string, string>(){
-                {"Airi's Extreme", "180,300"},
-                {"Kalindraz's Ambivalence", "180,300"},
-                {"LMT's Extreme", "180,300"},
-                {"Maot's Insane", "180,300"},
-                {"reicavera's Light Insane", "180,300"},
-                {"ShadowX's Extra", "180,300"},
-                {"Cheri's Extra", "180,300"},
-                {"Satellite's Expert", "180,300"},
-                {"Nattu's Extra", "180,300"},
-                {"Dada's Insane", "180,300"},
-                {"Rensia's Hard", "180,300"},
-                {"Hitsound", "180,300"}
+                {"Airi's Extreme", "20,0,0.75,1,49,1"},
+                {"Kalindraz's Ambivalence", "0,200,0,0.41,0.75,1"},
+                {"LMT's Extreme", "255,65,0.66,1,0.37,0.98"},
+                {"Maot's Insane", "60,120,0.41,0.99,0.46,0.87"},
+                {"reicavera's Light Insane", "60,150,0.6,1,1,0.8"},
+                {"ShadowX's Extra", "180,300,1,1,1,1"},
+                {"Cheri's Convalescence", "180,234,0.5,1,0.40,0.93"},
+                {"Satellite's Expert", "180,300,1,1,1,1"},
+                {"Nattu's Extra", "180,300,1,1,1,1"},
+                {"Dada's Insane", "180,300,1,1,1,1"},
+                {"Rensia's Hard", "359,263,0.38,0.96,0.98,0.51"},
+                {"Hitsound", "180,300,1,1,1,1"},
+                {"Ciyus Miapah's Extreme", "0,200,0,0.41,0.75,1"},
+                {"Faito's Extra", "0,200,0,0.41,0.75,1"}
             };
             if (color.ContainsKey(diff_name)){
                 return color[diff_name];
             }else{
-                return "180,300";
+                return "180,300,1,1,1,1";
             }
         }
         double tick(double start, double divisor){
