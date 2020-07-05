@@ -20,6 +20,33 @@ After that, clone the repository inside the projects folder in the storybrew ins
 **Previews**
 - TODO(streamlabs)
 
+# Info
+Image softwares:
+- Adobe Illustrator -> *image editing*
+- Adobe Photoshop -> *image editing*
+- photomosh.com -> *image effects*
+- paint.net -> *image resize & compress*
+- ezgif.com -> *image convert*
+- workwithcolor.com -> *color-converter*
+
+Audio softwares:
+- FFmpeg -> *Quick audio editing e.g. convert .wav to .ogg*
+- FL Studio 20 -> *keysound and drumkit for hitsound*
+- Audacity -> *keysound and samples editing for hitsound*
+- Hitsound Copier -> *copy from hitsound diff to others*
+
+IDEs:
+- Sublime Text 3 -> *used for .osb & .osu file text editor*
+- Visual Studio Code -> *used for .osb & .osu file text editor*
+
+Others:
+- Storybrew -> *for creating every effect (basically whole sb)*
+- subtitletools.com -> *Subtitle Shifter for repeat the lyrics on srt file*
+
+Language:
+- C# -> *the language used in Storybrew*
+- python -> *for script somethings*
+
 # Hitsound
 
 The mapset has some keysounds on Intro, verses and Outros. You can check the FL Project on "/hitsound/keysound" path.
@@ -54,33 +81,6 @@ Piano chords.
 
 ![Kiai](hitsound/kiai.PNG "Kiai")
 
-# Info
-Image softwares:
-- Adobe Illustrator -> *image editing*
-- Adobe Photoshop -> *image editing*
-- photomosh.com -> *image effects*
-- paint.net -> *image resize & compress*
-- ezgif.com -> *image convert*
-- workwithcolor.com -> *color-converter*
-
-Audio softwares:
-- FFmpeg -> *Quick audio editing e.g. convert .wav to .ogg*
-- FL Studio 20 -> *keysound and drumkit for hitsound*
-- Audacity -> *keysound and samples editing for hitsound*
-- Hitsound Copier -> *copy from hitsound diff to others*
-
-IDEs:
-- Sublime Text 3 -> *used for .osb & .osu file text editor*
-- Visual Studio Code -> *used for .osb & .osu file text editor*
-
-Others:
-- Storybrew -> *for creating every effect (basically whole sb)*
-- subtitletools.com -> *Subtitle Shifter for repeat the lyrics on srt file*
-
-Language:
-- C# -> *the language used in Storybrew*
-- python -> *for script somethings*
-
 # Thanks to
 Mappers:
 - Dada: [Osu!](https://osu.ppy.sh/u/9119507 "Dada") [Twitter](https://twitter.com/dada_38_ "@dada_38_")
@@ -89,14 +89,12 @@ Mappers:
 - Cheri: [Osu!](https://osu.ppy.sh/u/5226970 "Cheri") [Twitter](https://twitter.com/Cheri_Osu "@Cheri_Osu")
 - Sakura Airi: [Osu!](https://osu.ppy.sh/users/8682057 "Sakura Airi") [Twitter](https://twitter.com/SakuraAiriOsu "@SakuraAiriOsu")
 - Kalindraz: [Osu!](https://osu.ppy.sh/users/2313166 "Kalindraz") [Twitter](https://twitter.com/kalindraz "@Kalindraz")
-- Net0: [Osu!](https://osu.ppy.sh/users/5099768 "Net0") [Twitter](https://twitter.com/CZNet0 "@CZNet0")
 - LMT: [Osu!](https://osu.ppy.sh/users/7262798 "LMT") [Twitter](https://twitter.com/utsmol_ "@utsmol_")
 - yShadowXOP_: [Osu!](https://osu.ppy.sh/users/7754679 "yShadowXOP_") [Twitter](https://twitter.com/ShadouXis/ "@ShadouXis")
 - Faito: [Osu!](https://osu.ppy.sh/users/9706291 "Faito") [Twitter](https://twitter.com/LuczLov "@LuczLov")
 - Satellite: [Osu!](https://osu.ppy.sh/users/1661227 "Satellite") [Twitter](https://twitter.com/yuuhei "@yuuhei")
 - Ciyus Miapah: [Osu!](https://osu.ppy.sh/users/2805457 "Ciyus Miapah") [Twitter](https://twitter.com/Fort_exe "@Fort_exe")
 - reicavera: [Osu!](https://osu.ppy.sh/users/9314703 "reicavera")
-- Nattu: [Osu!](https://osu.ppy.sh/users/1886722 "Nattu")
 
 Storyboarders:
 - Maot: [Osu!](https://osu.ppy.sh/users/3914271 "Maot") [Twitter](https://twitter.com/maotovisk "@maotovisk") -> *My right hand*
