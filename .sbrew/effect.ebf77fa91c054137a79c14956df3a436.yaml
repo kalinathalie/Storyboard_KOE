@@ -1,13 +1,13 @@
 ﻿FormatVersion: 6
-Name: "Spectrum2D 1"
+Name: "Spectrum2D 3"
 Script: "Spectrum2D"
 Config:
   StartTime:
     Type: "System.Int32"
-    Value: "22630"
+    Value: "113102"
   EndTime:
     Type: "System.Int32"
-    Value: "32683"
+    Value: "123154"
   Position:
     Type: "OpenTK.Vector2"
     Value: "-100,440"
@@ -98,7 +98,7 @@ Config:
     Value: "0"
     DisplayName: "Random seed"
 Layers:
-  279a1f87363e4d73bf3aeea329a198f1:
+  3cd105aa66a846d5b316982144a88058:
     Name: "Spectrum2D"
     OsbLayer: Background
     DiffSpecific: Yes

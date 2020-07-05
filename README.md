@@ -61,6 +61,7 @@ Image softwares:
 - photomosh.com -> *image effects*
 - paint.net -> *image resize & compress*
 - ezgif.com -> *image convert*
+- workwithcolor.com -> *color-converter*
 
 Audio softwares:
 - FFmpeg -> *Quick audio editing e.g. convert .wav to .ogg*

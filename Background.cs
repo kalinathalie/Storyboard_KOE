@@ -32,7 +32,7 @@ namespace StorybrewScripts{
                 {"Maot's Insane", "Maot"},
                 {"reicavera's Light Insane", "reicavera"},
                 {"ShadowX's Extra", "ShadowX"},
-                {"Cheri's Extra", "Cheri"},
+                {"Cheri's Convalescence", "Cheri"},
                 {"Satellite's Extra", "Satellite"},
                 {"Nattu's Extra", "Nattu"},
                 {"Dada's Insane", "Dada"},
