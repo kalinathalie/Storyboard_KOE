@@ -1,5 +1,5 @@
 # Storyboard for the osu! mapset KOE
-> Storyboard by [K4L1](https://osu.ppy.sh/users/11334594) and [Maot](https://osu.ppy.sh/users/3914271)
+> Storyboard by [K4L1](https://osu.ppy.sh/users/11334594), [Maot](https://osu.ppy.sh/users/3914271) and [VenerableNyanta](https://osu.ppy.sh/users/12243368)
 
 ## Using the project
 
@@ -47,6 +47,32 @@ Language:
 - C# -> *the language used in Storybrew*
 - python -> *for script somethings*
 
+# Thanks to
+Mappers:
+- Cheri: [Osu!](https://osu.ppy.sh/u/5226970 "Cheri") [Twitter](https://twitter.com/Cheri_Osu "@Cheri_Osu")
+- Ciyus Miapah: [Osu!](https://osu.ppy.sh/users/2805457 "Ciyus Miapah") [Twitter](https://twitter.com/Fort_exe "@Fort_exe")
+- Dada: [Osu!](https://osu.ppy.sh/u/9119507 "Dada") [Twitter](https://twitter.com/dada_38_ "@dada_38_")
+- Faito: [Osu!](https://osu.ppy.sh/users/9706291 "Faito") [Twitter](https://twitter.com/LuczLov "@LuczLov")
+- Kalindraz: [Osu!](https://osu.ppy.sh/users/2313166 "Kalindraz") [Twitter](https://twitter.com/kalindraz "@Kalindraz")
+- LMT: [Osu!](https://osu.ppy.sh/users/7262798 "LMT") [Twitter](https://twitter.com/utsmol_ "@utsmol_")
+- Maot: [Osu!](https://osu.ppy.sh/users/3914271 "Maot") [Twitter](https://twitter.com/maotovisk "@maotovisk")
+- reicavera: [Osu!](https://osu.ppy.sh/users/9314703 "reicavera")
+- Rensia: [Osu!](https://osu.ppy.sh/users/9598254 "Rensia") [Twitter](https://twitter.com/OsuRensia "@OsuRensia")
+- Sakura Airi: [Osu!](https://osu.ppy.sh/users/8682057 "Sakura Airi") [Twitter](https://twitter.com/SakuraAiriOsu "@SakuraAiriOsu")
+- Satellite: [Osu!](https://osu.ppy.sh/users/1661227 "Satellite") [Twitter](https://twitter.com/yuuhei "@yuuhei")
+- yShadowXOP_: [Osu!](https://osu.ppy.sh/users/7754679 "yShadowXOP_") [Twitter](https://twitter.com/ShadouXis/ "@ShadouXis")
+
+Storyboarders:
+- Maot: [Osu!](https://osu.ppy.sh/users/3914271 "Maot") [Twitter](https://twitter.com/maotovisk "@maotovisk") -> *My right hand*
+- VenerableNyanta: [Osu!](https://osu.ppy.sh/users/12243368 "VenerableNyanta") [Twitter](https://twitter.com/venerablenyanta "@venerablenyanta") -> *A fallen angel*
+
+Hitsound:
+- Maemi no Yume: [Osu!](https://osu.ppy.sh/users/4377273) [Twitter](https://twitter.com/Maemi_no_yume) -> *The diamond behind of keysound samples, guided me a lot*
+
+Nominators:
+- C:
+- C:
+
 # Hitsound
 
 The mapset has some keysounds on Intro, verses and Outros. You can check the FL Project on "/hitsound/keysound" path.
@@ -80,31 +106,6 @@ Long strings.
 Piano chords.
 
 ![Kiai](hitsound/kiai.PNG "Kiai")
-
-# Thanks to
-Mappers:
-- Dada: [Osu!](https://osu.ppy.sh/u/9119507 "Dada") [Twitter](https://twitter.com/dada_38_ "@dada_38_")
-- Rensia: [Osu!](https://osu.ppy.sh/users/9598254 "Rensia") [Twitter](https://twitter.com/OsuRensia "@OsuRensia")
-- Maot: [Osu!](https://osu.ppy.sh/users/3914271 "Maot") [Twitter](https://twitter.com/maotovisk "@maotovisk")
-- Cheri: [Osu!](https://osu.ppy.sh/u/5226970 "Cheri") [Twitter](https://twitter.com/Cheri_Osu "@Cheri_Osu")
-- Sakura Airi: [Osu!](https://osu.ppy.sh/users/8682057 "Sakura Airi") [Twitter](https://twitter.com/SakuraAiriOsu "@SakuraAiriOsu")
-- Kalindraz: [Osu!](https://osu.ppy.sh/users/2313166 "Kalindraz") [Twitter](https://twitter.com/kalindraz "@Kalindraz")
-- LMT: [Osu!](https://osu.ppy.sh/users/7262798 "LMT") [Twitter](https://twitter.com/utsmol_ "@utsmol_")
-- yShadowXOP_: [Osu!](https://osu.ppy.sh/users/7754679 "yShadowXOP_") [Twitter](https://twitter.com/ShadouXis/ "@ShadouXis")
-- Faito: [Osu!](https://osu.ppy.sh/users/9706291 "Faito") [Twitter](https://twitter.com/LuczLov "@LuczLov")
-- Satellite: [Osu!](https://osu.ppy.sh/users/1661227 "Satellite") [Twitter](https://twitter.com/yuuhei "@yuuhei")
-- Ciyus Miapah: [Osu!](https://osu.ppy.sh/users/2805457 "Ciyus Miapah") [Twitter](https://twitter.com/Fort_exe "@Fort_exe")
-- reicavera: [Osu!](https://osu.ppy.sh/users/9314703 "reicavera")
-
-Storyboarders:
-- Maot: [Osu!](https://osu.ppy.sh/users/3914271 "Maot") [Twitter](https://twitter.com/maotovisk "@maotovisk") -> *My right hand*
-
-Hitsound:
-- Maemi no Yume: [Osu!](https://osu.ppy.sh/users/4377273) [Twitter](https://twitter.com/Maemi_no_yume) -> *The diamond behind of keysound samples, guided me a lot*
-
-Nominators:
-- C:
-- C:
 
 # Creator
 - Twitter: [@K4L1_FS](https://twitter.com/K4L1_FS "@K4L1_FS")

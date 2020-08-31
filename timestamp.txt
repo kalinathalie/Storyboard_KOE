@@ -1,24 +1,20 @@
-K4L1 - Combo1 : 87,130,255 Combo2 : 244,158,252
-reicavera: 298A08 e F3F781
-Sakura: 255,128,64 e 255,130,130
+Trivial observation: each mapper has 2 main colors(X,Y)
 
-ideias: google imagens->line vector, fractal, terrain generator synth
-
-00:00:117 - 00:22:630 - Particulas subindo, comecando com um pontinho e depois virando poliginos e aumentando a velocidade, as 2 cores que o povo escolheu: fundo X objeto Y, e alternando entre fundo Y e objetos X, no final, um grande clarao
+00:00:117 - 00:22:630 - Particles going up, starting as point and turn on polygons and increasing speed. Mapper colors(X,Y): background X object Y, swithing with background Y  object  X, on final a big flashwhite
 00:22:630 - 00:42:735 - Spectrum 2D
-00:42:735 - 01:02:840 - Spectrum em 3D | Efeito recursivo https://66.media.tumblr.com/30bda170e30b4fab2261ceffba0603c0/tumblr_nhkthhRFxv1txeruoo1_r1_500.gif
-01:02:840 - 01:12:578 - Varios objetos loucos
+00:42:735 - 01:02:840 - Spectrum 3D(we can chgange it) | recursive effect(I made triangle sierpinski)
+01:02:840 - 01:12:578 - Free crazy objects
 01:12:892 - 01:33:311 - Kiai
 01:35:510 - 01:53:102 - Kiai
 01:53:101 - 02:13:206 - Spectrum 2D
-02:13:206 - 02:22:630 - Mapper, Storyboarder, Hitsounder com Pontos/linhas Particles
-02:23:259 - 02:33:311 - Pontos/linhas Particles
-02:33:311 - 02:43:363 - Varios objetos loucos com Pontos/linhas Particles
-02:43:363 - 02:52:787 - Varios objetos loucos igual do primeiro
-02:53:416 - 03:13:206 - BG de cada pessoa com Pontos/linhas Particles
+02:13:206 - 02:22:630 - Mapper, Storyboarder, Hitsounder with Point/Line Particles*
+02:23:259 - 02:33:311 - Pontos/linhas Particles*
+02:33:311 - 02:43:363 - Free crazy objects with Point/Line Particles*
+02:43:363 - 02:52:787 - Free crazy objects AGAIN
+02:53:416 - 03:13:206 - Each mapper BG with Point/Line Particles*
 03:16:033 - 03:33:625 - Kiai
 
-Pontos/linhas Particles{
+*Point/Line Particles{
 	https://trcshqueen.tumblr.com/post/139284234856/web-resource-how-to-web-particles
 	https://www.hackthebox.eu/
 	https://onextrapixel.com/20-codepen-solutions-for-awesome-mouse-effects/
@@ -27,7 +23,7 @@ Pontos/linhas Particles{
 }
 
 Kiai{
-	BG de cada mapper
+	mapper bg
 	Parallax
-	HitObjectHitlight como cursordance e explosao 
+	HitObjectHitlight with cursourdance and explosion like Tochi(also he told me that can help us)
 }
