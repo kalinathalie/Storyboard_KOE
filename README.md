@@ -56,6 +56,7 @@ Mappers:
 - Kalindraz: [Osu!](https://osu.ppy.sh/users/2313166 "Kalindraz") [Twitter](https://twitter.com/kalindraz "@Kalindraz")
 - LMT: [Osu!](https://osu.ppy.sh/users/7262798 "LMT") [Twitter](https://twitter.com/utsmol_ "@utsmol_")
 - Maot: [Osu!](https://osu.ppy.sh/users/3914271 "Maot") [Twitter](https://twitter.com/maotovisk "@maotovisk")
+- Marianna: [Osu!](https://osu.ppy.sh/users/6701398 "Marianna")
 - reicavera: [Osu!](https://osu.ppy.sh/users/9314703 "reicavera")
 - Rensia: [Osu!](https://osu.ppy.sh/users/9598254 "Rensia") [Twitter](https://twitter.com/OsuRensia "@OsuRensia")
 - Sakura Airi: [Osu!](https://osu.ppy.sh/users/8682057 "Sakura Airi") [Twitter](https://twitter.com/SakuraAiriOsu "@SakuraAiriOsu")
