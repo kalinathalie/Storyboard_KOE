@@ -1,0 +1,26 @@
+Basically my version of timestamps.txt, but less formal
+
+2526 - 22630 :  since the main instrument here is the piano, thought we could go for a piano effect, or mania 9k here, with a background that
+                switches between the two main colors of the map, then we could add other effect on top to spice things up
+                we could also have a really cool transition to the next section with collapsing screen, idk how to explain this 
+                but it'll be good lol
+
+22630 - 42735 : the ideas you have here are cool but it's kind of a poor implementation, the spectrum feels really slow, and I kinda want to save 
+                background only for the kiai section
+                My idea was to split the screen into top and bottom half symetrically, have a top and bottom spectrum, with a bar inbetween which
+                will implement ur infinite triangle loop in another way, still trying to figure out how to make the same idea fit in a smaller
+                space
+                will also try to figure out something that could represent the piano in that section, maybe some particles 
+                arranged ina  certain way, idk
+
+42735 - 72892 : I really like full control stuff, since this part has a lot of wubs, we can easly make a really cool generated background with 
+                lots of shape morphs and effects following the music, and sticking to the two main colors as always
+
+
+72892 - 92997 : this kiai part is cool, with a little bit of polishing would be really cool, we could for example use a blurred and dimmed bg 
+                with some effects on it
+                also the shape behind the lyrics feels kinda cheap and a bit too big, we could make it simpler and better
+
+92997 - 95510 : I like to implement some elements of humor into the storyboard and I think this is a good place to do it
+                so my idea is to make a full control in this small section with some big brain text effect that will represent the lyrics, or the 
+                EEE AAAAA II sounds, would be cool and kinda funny
