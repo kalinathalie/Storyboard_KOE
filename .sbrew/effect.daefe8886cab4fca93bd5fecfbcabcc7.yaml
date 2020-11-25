@@ -1,4 +1,4 @@
-﻿FormatVersion: 6
+﻿FormatVersion: 7
 Name: "Background 1"
 Script: "Background"
 Config:
@@ -7,8 +7,8 @@ Config:
     Value: "0"
     DisplayName: "Random seed"
 Layers:
-  771c25e50afd4b7180550239adb9809b:
+  3b4043664c0b4ea0bcf45e3ad9bcdf31:
     Name: ""
     OsbLayer: Background
-    DiffSpecific: Yes
+    DiffSpecific: No
     Visible: Yes
