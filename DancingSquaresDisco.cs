@@ -106,7 +106,7 @@ namespace StorybrewScripts
 
             public void shift(Vector2 shifting,double time)
             {
-                sprite.Move(OsbEasing.OutCirc,time,time+2*quatterBeat,position,position+shifting);
+                sprite.Move(OsbEasing.OutCirc,time,time+1.75*quatterBeat,position,position+shifting);
                 position += shifting;
             }
 
@@ -184,12 +184,15 @@ namespace StorybrewScripts
 
                 rotateAll(11636,gridSquares,limit,2);
 
-                revDuplicationTR(11950,gridSquares,limit);
+                //revDuplicationTR(11950,gridSquares,limit);
 
             }
 
+            Wiggle(11950,gridSquares);
+
             dualTap(12578,4,ref gridSquares[6,6],ref gridSquares[6,7], Color4.DarkCyan,Color4.Cyan);
-            snake(12578,gridSquares,Color4.Orange);
+
+            snake(12578,gridSquares,Beatmap.ComboColors.ElementAt(0));
 
             fadeAllOut(22630,gridSquares,limit);
 
@@ -289,6 +292,22 @@ namespace StorybrewScripts
                     grid[j,i].bounce(time);
                     time += qBeat;
                 }
+            }
+        }
+
+        public void Wiggle(int time, SquareSprite[,] grid)
+        {
+            int shiftAmount = 10;
+            for(int j = 0; j < 10 ; j++)
+            {
+                for(int i = 0 ; i < 10; i++)
+                {
+                    grid[j,i].shift(new Vector2(0,shiftAmount),time);
+                    grid[j,i].shift(new Vector2(0,-shiftAmount),time+2*qBeat);
+                    grid[j,i].shift(new Vector2(0,-shiftAmount),time+4*qBeat);
+                    grid[j,i].shift(new Vector2(0,shiftAmount),time+6*qBeat);
+                }
+                shiftAmount *= -1;
             }
         }
     }

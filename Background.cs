@@ -1,4 +1,4 @@
-﻿using StorybrewCommon.Scripting;
+using StorybrewCommon.Scripting;
 using StorybrewCommon.Storyboarding;
 using System.Linq;
 using System.Collections.Generic;
@@ -12,7 +12,11 @@ namespace StorybrewScripts{
             var BackgroundPath = get_bg(Beatmap.Name);
             var bitmap = GetMapsetBitmap(BackgroundPath);
             var bg = GetLayer("").CreateSprite(BackgroundPath, OsbOrigin.Centre);
+            bg.Fade(0,0);
+            bg.Fade(2211,12578,1,1);
             bg.Scale(0, 480.0f / bitmap.Height);
+            bg.Move(2211,70,240);
+            /*bg.Scale(0, 480.0f / bitmap.Height);
             bg.Fade((OsbEasing)6, 0, 2526, 0, 0.5);
             bg.Fade(2526, 10065, 0.2, 0.2);
             bg.Fade(10065, 12578, 0.2, 0.5);
@@ -20,7 +24,7 @@ namespace StorybrewScripts{
             bg.Fade((OsbEasing)6, 41478, 42735, 0.5, 0);
 
             bg.Fade(113102, 131950, 0.5, 0.5);
-            bg.Fade((OsbEasing)6, 131950, 133206, 0.5, 0);
+            bg.Fade((OsbEasing)6, 131950, 133206, 0.5, 0);*/
 
         }
 

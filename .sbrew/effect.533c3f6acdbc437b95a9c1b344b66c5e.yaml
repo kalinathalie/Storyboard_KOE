@@ -1,0 +1,35 @@
+﻿FormatVersion: 7
+Name: "BasicParticlesParallax 1"
+Script: "BasicParticlesParallax"
+Config:
+  scaleMagnitude:
+    Type: "System.Double"
+    Value: "0.05"
+  spritePath:
+    Type: "System.String"
+    Value: "sb/pl.png"
+  startTime:
+    Type: "System.Int32"
+    Value: "0"
+  endTime:
+    Type: "System.Int32"
+    Value: "100000"
+  particleAmountPerBeat:
+    Type: "System.Int32"
+    Value: "32"
+  xStart:
+    Type: "System.Int32"
+    Value: "-107"
+  xEnd:
+    Type: "System.Int32"
+    Value: "754"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  319f67c3e7d7460ab96100c0691582f8:
+    Name: "Background"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
