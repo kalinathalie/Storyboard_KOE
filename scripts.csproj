@@ -53,6 +53,7 @@
   -->
   <ItemGroup>
     <Compile Include="Background.cs" />
+    <Compile Include="DancingSquaresDisco.cs" />
     <Compile Include="FractalTriangle.cs" />
     <Compile Include="Lyrics.cs" />
     <Compile Include="Parallax.cs" />
