@@ -1,0 +1,92 @@
+﻿FormatVersion: 7
+Name: "CustomRadialSpec 1"
+Script: "CustomRadialSpec"
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "22630"
+  EndTime:
+    Type: "System.Int32"
+    Value: "42735"
+  Position:
+    Type: "OpenTK.Vector2"
+    Value: "50,240"
+  radius:
+    Type: "System.Int32"
+    Value: "60"
+  Width:
+    Type: "System.Single"
+    Value: "400"
+  BeatDivisor:
+    Type: "System.Int32"
+    Value: "16"
+  BarCount:
+    Type: "System.Int32"
+    Value: "64"
+  SpritePath:
+    Type: "System.String"
+    Value: "sb/bar.png"
+  Scale:
+    Type: "OpenTK.Vector2"
+    Value: "1,33"
+  LogScale:
+    Type: "System.Int32"
+    Value: "400"
+  Tolerance:
+    Type: "System.Double"
+    Value: "1.5"
+  CommandDecimals:
+    Type: "System.Int32"
+    Value: "1"
+  MinimalHeight:
+    Type: "System.Single"
+    Value: "0.05"
+  FftEasing:
+    Type: "System.Int32"
+    Value: "9"
+    AllowedValues:
+      None: "0"
+      Out: "1"
+      In: "2"
+      InQuad: "3"
+      OutQuad: "4"
+      InOutQuad: "5"
+      InCubic: "6"
+      OutCubic: "7"
+      InOutCubic: "8"
+      InQuart: "9"
+      OutQuart: "10"
+      InOutQuart: "11"
+      InQuint: "12"
+      OutQuint: "13"
+      InOutQuint: "14"
+      InSine: "15"
+      OutSine: "16"
+      InOutSine: "17"
+      InExpo: "18"
+      OutExpo: "19"
+      InOutExpo: "20"
+      InCirc: "21"
+      OutCirc: "22"
+      InOutCirc: "23"
+      InElastic: "24"
+      OutElastic: "25"
+      OutElasticHalf: "26"
+      OutElasticQuarter: "27"
+      InOutElastic: "28"
+      InBack: "29"
+      OutBack: "30"
+      InOutBack: "31"
+      InBounce: "32"
+      OutBounce: "33"
+      InOutBounce: "34"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  4d89b83abe8c4e96afb2a4ac27d0b258:
+    Name: "Spectrum"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
