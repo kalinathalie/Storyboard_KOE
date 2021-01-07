@@ -1,6 +1,6 @@
 ﻿FormatVersion: 7
-BeatmapId: 2465620
-BeatmapName: "Faito's Extra"
+BeatmapId: 2242972
+BeatmapName: "Rhuzerv"
 Assemblies:
 Layers:
   - "3b4043664c0b4ea0bcf45e3ad9bcdf31"
@@ -11,5 +11,7 @@ Layers:
   - "40fc9a57de8849a7aac11f9a00ac430a"
   - "4d89b83abe8c4e96afb2a4ac27d0b258"
   - "efd2ea8197d245889ce4e0903614d668"
-  - "4a7776b6c285443f9d20a7c7e482bb05"
   - "0ab25f308491499d81ab4bb59be2f1f3"
+  - "4a7776b6c285443f9d20a7c7e482bb05"
+  - "6815077a91684718aae4b9ef4cf35183"
+  - "4facc0ccae254f908bc9a41e48abf92a"

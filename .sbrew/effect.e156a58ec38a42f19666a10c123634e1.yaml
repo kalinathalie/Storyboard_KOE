@@ -97,6 +97,6 @@ Config:
 Layers:
   0ab25f308491499d81ab4bb59be2f1f3:
     Name: "Spectrum"
-    OsbLayer: Foreground
+    OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
