@@ -62,7 +62,9 @@
     <Compile Include="DancingCircles.cs" />
     <Compile Include="DancingSquaresDisco.cs" />
     <Compile Include="DoubleSpectrum.cs" />
+    <Compile Include="DropSetup.cs" />
     <Compile Include="FractalTriangle.cs" />
+    <Compile Include="HItObjectBeeg.cs" />
     <Compile Include="HitObjectHighlight.cs" />
     <Compile Include="LateralAdditives.cs" />
     <Compile Include="Lyrics.cs" />
