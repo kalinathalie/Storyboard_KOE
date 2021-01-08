@@ -1,4 +1,4 @@
-﻿using OpenTK;
+using OpenTK;
 using StorybrewCommon.Animations;
 using StorybrewCommon.Scripting;
 using StorybrewCommon.Storyboarding;
@@ -93,7 +93,6 @@ namespace StorybrewScripts{
                 var defaultPosition = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle)) * Radius;
 
                 var bar = layer.CreateSprite(SpritePath, SpriteOrigin);
-                bar.ColorHsb(StartTime, (i * 360.0 / BarCount) + Random(-10.0, 10.0), 0.6 + Random(0.4), 1);
                 if (SpriteScale.X == SpriteScale.Y)
                     bar.Scale(StartTime, barScale * SpriteScale.X);
                 else bar.ScaleVec(StartTime, barScale * SpriteScale.X, barScale * SpriteScale.Y);

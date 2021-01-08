@@ -10,10 +10,10 @@ Config:
     Value: "sb/pl.png"
   startTime:
     Type: "System.Int32"
-    Value: "0"
+    Value: "641"
   endTime:
     Type: "System.Int32"
-    Value: "100000"
+    Value: "20117"
   particleAmountPerBeat:
     Type: "System.Int32"
     Value: "32"

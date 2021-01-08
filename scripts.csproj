@@ -52,18 +52,30 @@
   </Target>
   -->
   <ItemGroup>
+    <Compile Include="AlienBG.cs" />
     <Compile Include="Background.cs" />
     <Compile Include="BackgroundAdditives.cs" />
     <Compile Include="BasicParticlesParallax.cs" />
     <Compile Include="CircleDanse.cs" />
+    <Compile Include="Cursor.cs" />
+    <Compile Include="CustomRadialSpec.cs" />
+    <Compile Include="DancingCircles.cs" />
     <Compile Include="DancingSquaresDisco.cs" />
+    <Compile Include="DoubleSpectrum.cs" />
+    <Compile Include="DropSetup.cs" />
     <Compile Include="FractalTriangle.cs" />
+    <Compile Include="HItObjectBeeg.cs" />
+    <Compile Include="HitObjectHighlight.cs" />
+    <Compile Include="LateralAdditives.cs" />
     <Compile Include="Lyrics.cs" />
     <Compile Include="Parallax.cs" />
     <Compile Include="PartcilesPointsAndLines.cs" />
     <Compile Include="Particles.cs" />
     <Compile Include="PianoNotes.cs" />
+    <Compile Include="PianoTiles.cs" />
     <Compile Include="RadialSpectrum.cs" />
+    <Compile Include="SectionOneBG.cs" />
+    <Compile Include="SectionThreeSetup.cs" />
     <Compile Include="Spectrum.cs" />
     <Compile Include="Spectrum2D.cs" />
     <Compile Include="TerrainGeneration.cs" />

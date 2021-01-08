@@ -1,0 +1,14 @@
+﻿FormatVersion: 7
+Name: "DropSetup 1"
+Script: "DropSetup"
+Config:
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  6815077a91684718aae4b9ef4cf35183:
+    Name: "Main"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

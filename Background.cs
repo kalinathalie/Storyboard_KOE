@@ -2,6 +2,7 @@ using StorybrewCommon.Scripting;
 using StorybrewCommon.Storyboarding;
 using System.Linq;
 using System.Collections.Generic;
+using OpenTK.Graphics;
 
 namespace StorybrewScripts{
     public class Background : StoryboardObjectGenerator{
@@ -12,10 +13,18 @@ namespace StorybrewScripts{
             var BackgroundPath = get_bg(Beatmap.Name);
             var bitmap = GetMapsetBitmap(BackgroundPath);
             var bg = GetLayer("").CreateSprite(BackgroundPath, OsbOrigin.Centre);
-            bg.Fade(0,0);
-            bg.Fade(2211,12578,1,1);
-            bg.Scale(0, 480.0f / bitmap.Height);
-            bg.Move(2211,70,240);
+            
+            bg.Fade(1583,2526,0,0.33);
+            bg.Fade(21374,22630,0.33,0);
+            
+            bg.Scale(13, 480.0f / bitmap.Height);
+            
+            
+
+            var vignette = GetLayer("").CreateSprite("sb/vig.png", OsbOrigin.Centre);
+            vignette.Scale(22395,854.0/1900);
+            vignette.Fade(91,42578,1,1);
+
             /*bg.Scale(0, 480.0f / bitmap.Height);
             bg.Fade((OsbEasing)6, 0, 2526, 0, 0.5);
             bg.Fade(2526, 10065, 0.2, 0.2);
