@@ -1,4 +1,4 @@
-﻿using OpenTK;
+using OpenTK;
 using StorybrewCommon.Animations;
 using StorybrewCommon.Scripting;
 using StorybrewCommon.Storyboarding;

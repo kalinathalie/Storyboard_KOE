@@ -1,4 +1,4 @@
-﻿using StorybrewCommon.Scripting;
+using StorybrewCommon.Scripting;
 using StorybrewCommon.Storyboarding;
 using System.Linq;
 using System.Collections.Generic;
