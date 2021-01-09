@@ -12,10 +12,12 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 
-namespace StorybrewScripts
-{
-    public class PianoTiles : StoryboardObjectGenerator
-    {
+namespace StorybrewScripts{
+    public class PianoTiles : StoryboardObjectGenerator{
+        [Configurable]
+        public int StartTime = 0;
+        [Configurable]
+        public int EndTime = 0;
 
         StoryboardLayer layer;
         double beatduration;
@@ -45,11 +47,24 @@ namespace StorybrewScripts
                 this.scale = scale;
             }
 
-            public void click(int time)
+            public void click(int time, string notePlayed)
             {
+                body.ColorHsb(2526, 0, 0, 1);
+                top.ColorHsb(2526, 0, 0, 1);
+                bottom.ColorHsb(2526, 0, 0, 1);
                 float decalage = (float) (25 * scale / 0.1);
                 OsbEasing easeOut = OsbEasing.OutExpo;
                 OsbEasing easeIn = OsbEasing.None;
+                if(notePlayed.Contains('4')){
+                    body.ColorHsb(time, time+350, 0, 1, 1, 0, 0, 1);
+                    top.ColorHsb(time, time+350, 0, 1, 1, 0, 0, 1);
+                    bottom.ColorHsb(time, time+350, 0, 1, 1, 0, 0, 1);
+                }
+                if(notePlayed.Contains('2')){
+                    body.ColorHsb(time, time+350, 120, 1, 1, 120, 0, 1);
+                    top.ColorHsb(time, time+350, 120, 1, 1, 120, 0, 1);
+                    bottom.ColorHsb(time, time+350, 120, 1, 1, 120, 0, 1);
+                }
                 if(up)
                 {
                     top.Move(easeOut, time, time + 100, position - new Vector2(0, scale*100), position - new Vector2(0, scale*100) - new Vector2(0, decalage));
@@ -95,9 +110,10 @@ namespace StorybrewScripts
             // Loading the big notes
 
             ArrayList beeg = new ArrayList(); 
-            for(int i = 0; i<4; i++)
+            for(int i = 0; i<6; i++)
             {
-                Vector2 position = new Vector2(320 - 90 + i*60, 260);
+                if(i==2) continue;
+                Vector2 position = new Vector2(320 - 150 + i*60, 260);
                 var top = layer.CreateSprite("sb/piano/top.png",OsbOrigin.BottomCentre, position);
                 var bottom = layer.CreateSprite("sb/piano/bottom.png",OsbOrigin.TopCentre, position + new Vector2(0, 0.1f*200));
                 var body = layer.CreateSprite("sb/piano/body.png",OsbOrigin.BottomCentre, position);
@@ -118,9 +134,9 @@ namespace StorybrewScripts
             // Loading the small notes
 
             ArrayList smol = new ArrayList(); 
-            for(int i = 0; i<5; i++)
+            for(int i = 0; i<7; i++)
             {
-                Vector2 position = new Vector2(320 - 2*60 + i*60, 220);
+                Vector2 position = new Vector2(320 - 180 + i*60, 220);
                 var top = layer.CreateSprite("sb/piano/top-fill.png",OsbOrigin.BottomCentre, position - new Vector2(0, 0.075f*200));
                 var bottom = layer.CreateSprite("sb/piano/bottom-fill.png",OsbOrigin.TopCentre, position);
                 var body = layer.CreateSprite("sb/piano/body-fill.png",OsbOrigin.BottomCentre, position);
@@ -159,18 +175,131 @@ namespace StorybrewScripts
                 Color = Color.Transparent,
             });
 
-            
+            Tuple<int, string>[] noteList =
+            {
+                Tuple.Create(3, "A#3"),
+                Tuple.Create(0, "C4"),
+                Tuple.Create(0, "C2"),
+                Tuple.Create(0, "C3"),
+                Tuple.Create(1, "D3"),
+                Tuple.Create(1, "D#3"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "A#3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(4, "G4"),
+                Tuple.Create(0, "C2"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(4, "A#4"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(3, "A#3"),
+                Tuple.Create(0, "C4"),
+                Tuple.Create(0, "C2"),
+                Tuple.Create(0, "C3"),
+                Tuple.Create(1, "D3"),
+                Tuple.Create(1, "D#3"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "A#3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(4, "G4"),
+                Tuple.Create(0, "C2"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(4, "A#4"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(3, "A#3"),
+                Tuple.Create(0, "C4"),
+                Tuple.Create(0, "C2"),
+                Tuple.Create(0, "C3"),
+                Tuple.Create(1, "D3"),
+                Tuple.Create(1, "D#3"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "A#3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(4, "G4"),
+                Tuple.Create(0, "C2"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(4, "A#4"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(3, "A#3"),
+                Tuple.Create(0, "C4"),
+                Tuple.Create(0, "C2"),
+                Tuple.Create(0, "C3"),
+                Tuple.Create(1, "D3"),
+                Tuple.Create(1, "D#3"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "A#3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(4, "G4"),
+                Tuple.Create(0, "C2"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(4, "A#4"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(3, "A#3"),
+                Tuple.Create(0, "C4"),
+                Tuple.Create(0, "C2"),
+                Tuple.Create(0, "C3"),
+                Tuple.Create(1, "D3"),
+                Tuple.Create(1, "D#3"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "A#3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(4, "G4"),
+                Tuple.Create(0, "C2"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(4, "A#4"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(3, "A#3"),
+                Tuple.Create(0, "C4"),
+                Tuple.Create(0, "C2"),
+                Tuple.Create(0, "C3"),
+                Tuple.Create(1, "D3"),
+                Tuple.Create(1, "D#3"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "A#3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(4, "G4"),
+                Tuple.Create(0, "C2"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(4, "A#4"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(3, "A#3"),
+                Tuple.Create(0, "C4"),
+                Tuple.Create(0, "C2"),
+                Tuple.Create(0, "C3"),
+                Tuple.Create(1, "D3"),
+                Tuple.Create(1, "D#3"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "A#3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(4, "G4"),
+                Tuple.Create(0, "C2"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "G3"),
+                Tuple.Create(4, "A#4"),
+                Tuple.Create(3, "F3"),
+                Tuple.Create(4, "G3")
+            };
 
-            clickNoteBottom((PianoNote)(beeg[1]), 2526, "G#7");
-            clickNoteBottom((PianoNote)(beeg[3]), 2683, "A4");
-
-            clickNoteTop((PianoNote)(smol[1]), 2840, "C#7");
-            clickNoteTop((PianoNote)(smol[4]), 2997, "D4");
-            clickNoteTop((PianoNote)(smol[0]), 3154, "F1");
-            clickNoteTop((PianoNote)(smol[2]), 3311, "B#5");
-            clickNoteTop((PianoNote)(smol[3]), 3468, "A1");
-            clickNoteTop((PianoNote)(smol[1]), 3625, "B#2");
-            
+            double run = StartTime;
+            foreach(var note in noteList){
+                if(note.Item2.Contains('#')){
+                    clickNoteBottom((PianoNote)(beeg[note.Item1]), (int)run, note.Item2);
+                }else{
+                    clickNoteTop((PianoNote)(smol[note.Item1]), (int)run, note.Item2);
+                }
+                run+=tick(0,2);
+            }
         }
 
         public void clickNoteTop(PianoNote pianoNote, int time, String notePlayed)
@@ -181,8 +310,13 @@ namespace StorybrewScripts
             noteSprite.Scale(time, 0.18);
             noteSprite.Fade(time,time+50,0,0.66);
             noteSprite.Fade(time+200,time+350,0.66,0);
-
-            pianoNote.click(time);
+            if(notePlayed.Contains('4')){
+                noteSprite.ColorHsb(time, time+350, 0, 1, 1, 0, 1, 1);
+            }
+            if(notePlayed.Contains('2')){
+                noteSprite.ColorHsb(time, time+350, 120, 1, 1, 120, 1, 1);
+            }
+            pianoNote.click(time, notePlayed);
 
         }
 
@@ -195,8 +329,18 @@ namespace StorybrewScripts
             noteSprite.Fade(time,time+50,0,0.66);
             noteSprite.Fade(time+200,time+350,0.66,0);
 
-            pianoNote.click(time);
+            if(notePlayed.Contains('4')){
+                noteSprite.ColorHsb(time, time+350, 0, 1, 1, 0, 1, 1);
+            }
+            if(notePlayed.Contains('2')){
+                noteSprite.ColorHsb(time, time+350, 120, 1, 1, 120, 1, 1);
+            }
 
+            pianoNote.click(time, notePlayed);
+
+        }
+        double tick(double start, double divisor){
+            return Beatmap.GetTimingPointAt((int)start).BeatDuration / divisor;
         }
     }
 }

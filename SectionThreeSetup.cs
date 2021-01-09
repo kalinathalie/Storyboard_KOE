@@ -66,7 +66,7 @@ namespace StorybrewScripts
 
 
             var circle = layer.CreateSprite(path, OsbOrigin.Centre, new Vector2((float) (position.X + radius*Math.Cos(initialAngle)),(float) (position.Y + radius*Math.Sin(initialAngle))));
-            circle.Fade(startTime + fadeOffset - 70, startTime + fadeOffset , 0, 1);
+            circle.Fade(startTime + fadeOffset - 70, startTime + fadeOffset+500 , 0, 1);
             circle.Fade(endTime, 0);
             circle.Scale(startTime+fadeOffset, scale);
             
