@@ -1,0 +1,108 @@
+﻿FormatVersion: 7
+Name: "RadialDoubleSpectrum 1"
+Script: "RadialDoubleSpectrum"
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "72892"
+  EndTime:
+    Type: "System.Int32"
+    Value: "113102"
+  Position:
+    Type: "OpenTK.Vector2"
+    Value: "320,200"
+  Width:
+    Type: "System.Single"
+    Value: "844"
+  BeatDivisor:
+    Type: "System.Int32"
+    Value: "8"
+  BarCount:
+    Type: "System.Int32"
+    Value: "18"
+  SpritePath:
+    Type: "System.String"
+    Value: "sb/up.png"
+  LowerSpritePath:
+    Type: "System.String"
+    Value: "sb/down.png"
+  radius:
+    Type: "System.Int32"
+    Value: "90"
+  SpriteOrigin:
+    Type: "System.Int32"
+    Value: "3"
+    AllowedValues:
+      TopLeft: "0"
+      TopCentre: "1"
+      TopRight: "2"
+      CentreLeft: "3"
+      Centre: "4"
+      CentreRight: "5"
+      BottomLeft: "6"
+      BottomCentre: "7"
+      BottomRight: "8"
+  Scale:
+    Type: "OpenTK.Vector2"
+    Value: "1,40"
+  LogScale:
+    Type: "System.Int32"
+    Value: "1000"
+  Tolerance:
+    Type: "System.Double"
+    Value: "0.05"
+  CommandDecimals:
+    Type: "System.Int32"
+    Value: "2"
+  MinimalHeight:
+    Type: "System.Single"
+    Value: "0.03"
+  FftEasing:
+    Type: "System.Int32"
+    Value: "18"
+    AllowedValues:
+      None: "0"
+      Out: "1"
+      In: "2"
+      InQuad: "3"
+      OutQuad: "4"
+      InOutQuad: "5"
+      InCubic: "6"
+      OutCubic: "7"
+      InOutCubic: "8"
+      InQuart: "9"
+      OutQuart: "10"
+      InOutQuart: "11"
+      InQuint: "12"
+      OutQuint: "13"
+      InOutQuint: "14"
+      InSine: "15"
+      OutSine: "16"
+      InOutSine: "17"
+      InExpo: "18"
+      OutExpo: "19"
+      InOutExpo: "20"
+      InCirc: "21"
+      OutCirc: "22"
+      InOutCirc: "23"
+      InElastic: "24"
+      OutElastic: "25"
+      OutElasticHalf: "26"
+      OutElasticQuarter: "27"
+      InOutElastic: "28"
+      InBack: "29"
+      OutBack: "30"
+      InOutBack: "31"
+      InBounce: "32"
+      OutBounce: "33"
+      InOutBounce: "34"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  20c34114f55e4bc185a6308c540ebccd:
+    Name: "Spectrum"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

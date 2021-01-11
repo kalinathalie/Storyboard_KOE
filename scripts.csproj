@@ -73,6 +73,7 @@
     <Compile Include="Particles.cs" />
     <Compile Include="PianoNotes.cs" />
     <Compile Include="PianoTiles.cs" />
+    <Compile Include="RadialDoubleSpectrum.cs" />
     <Compile Include="RadialSpectrum.cs" />
     <Compile Include="SectionOneBG.cs" />
     <Compile Include="SectionThreeSetup.cs" />
