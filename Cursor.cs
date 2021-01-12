@@ -50,7 +50,7 @@ namespace StorybrewScripts
             {
                 var trail = hitobjectLayer.CreateSprite("sb/particle.png", OsbOrigin.Centre, startPos);
 
-                trail.Fade(StartTime,0.33);
+                //trail.Fade(StartTime, 0.33);
                 trail.Additive(StartTime, EndTime);
                 trail.Scale(StartTime, 1 - i*0.04);
 
@@ -65,16 +65,42 @@ namespace StorybrewScripts
             hSprite.Fade(StartTime,0.1);
             //outline.Scale(StartTime,0.04);
             //outline.Fade(StartTime,0.2);
-            cursor.Scale(StartTime,0.5);
+            cursor.Scale(StartTime,SpriteScale);
             cursor.Additive(StartTime, EndTime);
             
             OsuHitObject prevObject = null;
+            var circleArray = new List<int>();
+            var lineArray = new List<int>();
+            //circle and line
+            circleArray.Add(StartTime);
+            for(int j=0;j<=3;j+=1){
+                double c = StartTime+tick(0,0.5) +j*tick(0, (double)1/(double)8);
+                for(int m=1;m<=4;m+=1){
+                    circleArray.Add((int)Math.Round(c));
+                    lineArray.Add((int)Math.Round(c+tick(0,2)));
+                    if(j==3 && m>=3) continue;
+                    lineArray.Add((int)Math.Round(c+tick(0,2)*2));
+                    c+=tick(0,(double)2/(double)3);
+                }
+            }
+            
             foreach (OsuHitObject hitobject in Beatmap.HitObjects)
             {
                 if ((StartTime != 0 || EndTime != 0) && 
                     (hitobject.StartTime < StartTime - 5 || EndTime - 5 <= hitobject.StartTime))
                     continue;
-                
+                if(circleArray.Contains((int)hitobject.StartTime) || circleArray.Contains((int)hitobject.StartTime+1) || circleArray.Contains((int)hitobject.StartTime -1)){
+                    var dropCircle = hitobjectLayer.CreateSprite("sb/q2.png", OsbOrigin.Centre, hitobject.Position);
+                    dropCircle.Scale(hitobject.StartTime, hitobject.StartTime+200, 0, 0.4);
+                    dropCircle.Fade(hitobject.StartTime, hitobject.StartTime+200, 1, 0);
+                }
+                if(lineArray.Contains((int)hitobject.StartTime) || lineArray.Contains((int)hitobject.StartTime+1) || lineArray.Contains((int)hitobject.StartTime -1)){
+                    var dropLine = hitobjectLayer.CreateSprite("sb/pl.png", OsbOrigin.Centre, hitobject.Position);
+                    dropLine.ScaleVec(hitobject.StartTime, hitobject.StartTime+200, 8, 100, 1, 100);
+                    dropLine.Rotate(hitobject.StartTime, MathHelper.DegreesToRadians(Random(-7,7)));
+                    dropLine.Fade(hitobject.StartTime, hitobject.StartTime+200, 0.6, 0);
+                    dropLine.Color(hitobject.StartTime, hitobject.Color);
+                }
                 if (prevObject != null) 
                 {
                     hSprite.MoveY(prevObject.EndTime, hitobject.StartTime, prevObject.EndPosition.Y, hitobject.Position.Y);
@@ -86,6 +112,8 @@ namespace StorybrewScripts
                     {
                         OsbSprite trail = (OsbSprite) cursorTrail[i];
                         trail.Move(prevObject.EndTime + (i+1)*4, hitobject.StartTime + (i+1)*4, prevObject.EndPosition, hitobject.Position);
+                        trail.Color(hitobject.StartTime + (i+1)*4, hitobject.Color);
+                        trail.Fade(hitobject.StartTime, 0.33);
                     }
                 
                 
@@ -125,6 +153,9 @@ namespace StorybrewScripts
                 }
                 prevObject = hitobject;
             }
+        }
+        double tick(double start, double divisor){
+            return Beatmap.GetTimingPointAt((int)start).BeatDuration / divisor;
         }
     }
 }

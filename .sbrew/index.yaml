@@ -1,9 +1,10 @@
 ﻿FormatVersion: 7
-BeatmapId: 2242972
-BeatmapName: "Rhuzerv"
+BeatmapId: 2469246
+BeatmapName: "ShadowX's Extreme"
 Assemblies:
 Layers:
   - "3b4043664c0b4ea0bcf45e3ad9bcdf31"
+  - "4facc0ccae254f908bc9a41e48abf92a"
   - "647c5eb20eea4282b2921f9c725d04b4"
   - "439b192340b0483ca66c951252a4f17d"
   - "319f67c3e7d7460ab96100c0691582f8"
@@ -14,4 +15,3 @@ Layers:
   - "0ab25f308491499d81ab4bb59be2f1f3"
   - "4a7776b6c285443f9d20a7c7e482bb05"
   - "6815077a91684718aae4b9ef4cf35183"
-  - "4facc0ccae254f908bc9a41e48abf92a"

@@ -7,8 +7,6 @@ using OpenTK.Graphics;
 namespace StorybrewScripts{
     public class Background : StoryboardObjectGenerator{
 
-        // AQUI EH TUDO NA MAO PORRA
-
         public override void Generate(){
             var BackgroundPath = get_bg(Beatmap.Name);
             var bitmap = GetMapsetBitmap(BackgroundPath);
@@ -55,7 +53,8 @@ namespace StorybrewScripts{
                 {"Normal", "K4L1"},
                 {"Rensia's Hard", "Rensia"},
                 {"Faito's Extra", "Faito"},
-                {"Ciyus Miapah's Extreme", "Ciyus"}
+                {"Ciyus Miapah's Extreme", "Ciyus"},
+                {"Marianna's Extra", "Marianna"}
             };
             if (background.ContainsKey(diff_name)){
                 return "sb/bgs/"+background[diff_name]+"/"+background[diff_name]+".jpg";
