@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="AlienBG.cs" />
     <Compile Include="Background.cs" />
+    <Compile Include="Background2.cs" />
     <Compile Include="BackgroundAdditives.cs" />
     <Compile Include="BasicParticlesParallax.cs" />
     <Compile Include="CircleDanse.cs" />

@@ -19,6 +19,9 @@ namespace StorybrewScripts
         public int EndTime = 10000;
 
         [Configurable]
+        public Color4 Color = Color4.White;
+
+        [Configurable]
         public Vector2 Position = new Vector2(-107, 240);
 
         [Configurable]
@@ -87,16 +90,18 @@ namespace StorybrewScripts
                 keyframes.Simplify1dKeyframes(Tolerance, h => h);
 
                 var bar = layer.CreateSprite(SpritePath, SpriteOrigin, new Vector2(Position.X + i * barWidth, Position.Y));
-                bar.Fade(startTime - 100 - i*10, startTime - i*10, 0, 1);
-                bar.Fade(startTime, endTime, 1, 1);
+                bar.Fade(startTime - 100 - i*10, startTime - i*10, 0, Color.A);
+                bar.Fade(startTime, endTime, Color.A, Color.A);
+                if (Color.R != 1 && Color.G != 1 && Color.B != 1) bar.Color(startTime, endTime, Color, Color);
 
 
                 OsbSprite bar2 = new OsbSprite();
                 if(i != 0)
                 {
                     bar2 = layer.CreateSprite(SpritePath, SpriteOrigin, new Vector2(Position.X - i * barWidth, Position.Y));
-                    bar2.Fade(startTime, endTime, 1, 1);
-                    bar2.Fade(startTime - 100 - i*10, startTime - i*10, 0, 1);
+                    bar2.Fade(startTime, endTime, Color.A, Color.A);
+                    bar2.Fade(startTime - 100 - i*10, startTime - i*10, 0, Color.A);
+                    if (Color.R != 1 && Color.G != 1 && Color.B != 1) bar2.Color(startTime, endTime, Color, Color);
                 }
                 
                 /*bar.Additive(startTime, endTime);
