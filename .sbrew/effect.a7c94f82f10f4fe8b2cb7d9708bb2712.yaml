@@ -11,4 +11,4 @@ Layers:
     Name: "Main"
     OsbLayer: Background
     DiffSpecific: No
-    Visible: Yes
+    Visible: No

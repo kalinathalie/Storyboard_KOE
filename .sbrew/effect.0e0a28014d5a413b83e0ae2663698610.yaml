@@ -2,6 +2,12 @@
 Name: "TitleScreen 1"
 Script: "TitleScreen"
 Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "13"
+  EndTime:
+    Type: "System.Int32"
+    Value: "1897"
   RandomSeed:
     Type: "System.Int32"
     Value: "0"

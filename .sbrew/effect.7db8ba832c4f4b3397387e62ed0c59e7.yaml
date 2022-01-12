@@ -2,16 +2,71 @@
 Name: "SectionThreeSetup 1"
 Script: "SectionThreeSetup"
 Config:
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.5957773,0.5957773,0.5957773,0.5580692"
+  Additive:
+    Type: "System.Boolean"
+    Value: "False"
+  BlurColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.9940197,0.9940197,0.9940197,1"
+  ScaleStart:
+    Type: "System.Int32"
+    Value: "54672"
+  ScaleEnd:
+    Type: "System.Int32"
+    Value: "57814"
+  ScaleEasing:
+    Type: "System.Int32"
+    Value: "5"
+    AllowedValues:
+      None: "0"
+      Out: "1"
+      In: "2"
+      InQuad: "3"
+      OutQuad: "4"
+      InOutQuad: "5"
+      InCubic: "6"
+      OutCubic: "7"
+      InOutCubic: "8"
+      InQuart: "9"
+      OutQuart: "10"
+      InOutQuart: "11"
+      InQuint: "12"
+      OutQuint: "13"
+      InOutQuint: "14"
+      InSine: "15"
+      OutSine: "16"
+      InOutSine: "17"
+      InExpo: "18"
+      OutExpo: "19"
+      InOutExpo: "20"
+      InCirc: "21"
+      OutCirc: "22"
+      InOutCirc: "23"
+      InElastic: "24"
+      OutElastic: "25"
+      OutElasticHalf: "26"
+      OutElasticQuarter: "27"
+      InOutElastic: "28"
+      InBack: "29"
+      OutBack: "30"
+      InOutBack: "31"
+      InBounce: "32"
+      OutBounce: "33"
+      InOutBounce: "34"
+  BlurRadius:
+    Type: "System.Int32"
+    Value: "15"
+  BlurPower:
+    Type: "System.Double"
+    Value: "5"
   RandomSeed:
     Type: "System.Int32"
     Value: "0"
     DisplayName: "Random seed"
 Layers:
-  86261309618c4f00824efd3cbc6c19c5:
-    Name: "Background"
-    OsbLayer: Background
-    DiffSpecific: No
-    Visible: Yes
   efd2ea8197d245889ce4e0903614d668:
     Name: "Main"
     OsbLayer: Background

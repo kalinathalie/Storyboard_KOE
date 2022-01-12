@@ -67,6 +67,8 @@
     <Compile Include="FractalTriangle.cs" />
     <Compile Include="HItObjectBeeg.cs" />
     <Compile Include="HitObjectHighlight.cs" />
+    <Compile Include="Kiai.cs" />
+    <Compile Include="KiaiParticles.cs" />
     <Compile Include="LateralAdditives.cs" />
     <Compile Include="Lyrics.cs" />
     <Compile Include="Parallax.cs" />
@@ -75,12 +77,15 @@
     <Compile Include="PianoNotes.cs" />
     <Compile Include="PianoTiles.cs" />
     <Compile Include="RadialSpectrum.cs" />
+    <Compile Include="Render3D.cs" />
+    <Compile Include="Section4.cs" />
     <Compile Include="SectionOneBG.cs" />
     <Compile Include="SectionThreeSetup.cs" />
     <Compile Include="Spectrum.cs" />
     <Compile Include="Spectrum2D.cs" />
     <Compile Include="TerrainGeneration.cs" />
     <Compile Include="TitleScreen.cs" />
+    <Compile Include="WindowsSpinner.cs" />
     <Compile Include="scriptslibrary/Bezier.cs" />
     <Compile Include="scriptslibrary/ColorExtensions.cs" />
     <Compile Include="scriptslibrary/Effects.cs" />

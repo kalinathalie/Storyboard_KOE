@@ -1,0 +1,20 @@
+﻿FormatVersion: 7
+Name: "KiaiParticles 1"
+Script: "KiaiParticles"
+Config:
+  FOV:
+    Type: "System.Single"
+    Value: "60"
+  fps:
+    Type: "System.Single"
+    Value: "60"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  d0780092984b4fe09901e434ebb6f206:
+    Name: ""
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: No

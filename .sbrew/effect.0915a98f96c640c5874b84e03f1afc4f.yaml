@@ -2,6 +2,9 @@
 Name: "AlienBG 1"
 Script: "AlienBG"
 Config:
+  color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,0,0,0.4223191"
   RandomSeed:
     Type: "System.Int32"
     Value: "0"

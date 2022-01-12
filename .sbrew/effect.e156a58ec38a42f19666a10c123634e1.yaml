@@ -8,6 +8,9 @@ Config:
   EndTime:
     Type: "System.Int32"
     Value: "62840"
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.5656107,0.5656107,0.5656107,1"
   Position:
     Type: "OpenTK.Vector2"
     Value: "320,240"
