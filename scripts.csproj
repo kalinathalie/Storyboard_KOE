@@ -80,6 +80,16 @@
     <Compile Include="Spectrum2D.cs" />
     <Compile Include="TerrainGeneration.cs" />
     <Compile Include="TitleScreen.cs" />
+    <Compile Include="scriptslibrary/Bezier.cs" />
+    <Compile Include="scriptslibrary/ColorExtensions.cs" />
+    <Compile Include="scriptslibrary/Effects.cs" />
+    <Compile Include="scriptslibrary/Movement.cs" />
+    <Compile Include="scriptslibrary/Patterns.cs" />
+    <Compile Include="scriptslibrary/SpriteExtensions.cs" />
+    <Compile Include="scriptslibrary/Sprites.cs" />
+    <Compile Include="scriptslibrary/SpriteSet.cs" />
+    <Compile Include="scriptslibrary/Timing.cs" />
+    <Compile Include="scriptslibrary/Vectors.cs" />
   </ItemGroup>
   <ItemGroup />
 </Project>
