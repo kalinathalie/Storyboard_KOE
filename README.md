@@ -111,7 +111,7 @@ Piano chords.
 # Creator
 - Twitter: [@K4L1_FS](https://twitter.com/K4L1_FS "@K4L1_FS")
 - Osu: [K4L1](https://osu.ppy.sh/u/11334594 "K4L1")
-- My Page: [K4L1](https://lucasnathaniel.github.io "Github Page")
+- My Page: [K4L1](https://KaliNathalie.github.io "Github Page")
 
 
 # Links
