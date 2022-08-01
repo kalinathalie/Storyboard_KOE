@@ -67,17 +67,17 @@ namespace StorybrewScripts{
                 }
                 if(up)
                 {
-                    top.Move(easeOut, time, time + 100, position - new Vector2(0, scale*100), position - new Vector2(0, scale*100) - new Vector2(0, decalage));
-                    top.Move(easeIn, time + 100, time + 250, position - new Vector2(0, decalage) - new Vector2(0, scale*100), position - new Vector2(0, scale*100));
-                    body.ScaleVec(easeOut, time, time + 100, scale, scale/2, scale, (decalage + scale*100)/200.0);
-                    body.ScaleVec(easeIn, time + 100, time + 250, scale, (decalage + scale*100)/200.0, scale, scale/2);
+                    bottom.Move(easeOut, time, time + 75, position, position + new Vector2(0, decalage));
+                    bottom.Move(easeIn, time + 75, time + 157, position + new Vector2(0, decalage) , position);
+                    body.ScaleVec(easeOut, time, time + 75, scale, scale/2, scale, (decalage + scale*100)/200.0);
+                    body.ScaleVec(easeIn, time + 75, time + 157, scale, (decalage + scale*100)/200.0, scale, scale/2);
                 }
                 else
                 {
-                    bottom.Move(easeOut, time, time + 100, position + new Vector2(0, scale*100) , position + new Vector2(0, scale*100) + new Vector2(0, decalage));
-                    bottom.Move(easeIn, time + 100, time + 250, position + new Vector2(0, decalage) + new Vector2(0, scale*100) , position + new Vector2(0, scale*100) );
-                    body.ScaleVec(easeOut, time, time + 100, scale, scale/2, scale, (decalage + scale*100)/200.0);
-                    body.ScaleVec(easeIn, time + 100, time + 250, scale, (decalage + scale*100)/200.0, scale, scale/2);
+                    top.Move(easeOut, time, time + 75, position  , position  - new Vector2(0, decalage));
+                    top.Move(easeIn, time + 75, time + 157, position - new Vector2(0, decalage) , position  );
+                    body.ScaleVec(easeOut, time, time + 75, scale, scale/2, scale, (decalage + scale*100)/200.0);
+                    body.ScaleVec(easeIn, time + 75, time + 157, scale, (decalage + scale*100)/200.0, scale, scale/2);
                 }
             }
 
@@ -113,15 +113,14 @@ namespace StorybrewScripts{
             for(int i = 0; i<6; i++)
             {
                 if(i==2) continue;
-                Vector2 position = new Vector2(320 - 150 + i*60, 260);
+                Vector2 position = new Vector2(320 - 150 + i*60, 200);
                 var top = layer.CreateSprite("sb/piano/top.png",OsbOrigin.BottomCentre, position);
                 var bottom = layer.CreateSprite("sb/piano/bottom.png",OsbOrigin.TopCentre, position + new Vector2(0, 0.1f*200));
-                var body = layer.CreateSprite("sb/piano/body.png",OsbOrigin.BottomCentre, position);
+                var body = layer.CreateSprite("sb/piano/body.png",OsbOrigin.BottomCentre, position+ new Vector2(0, 0.1f*200));
 
                 top.Scale(2369, 0.2);
                 bottom.Scale(2369, 0.2);
                 body.ScaleVec(2369, 0.2, 0.1);
-                body.Rotate(2369, Math.PI);
 
                 PianoNote pn1 = new PianoNote(top, bottom, body, position, false, 0.2f);
                 pn1.fadeIn(2369);
@@ -136,14 +135,15 @@ namespace StorybrewScripts{
             ArrayList smol = new ArrayList(); 
             for(int i = 0; i<7; i++)
             {
-                Vector2 position = new Vector2(320 - 180 + i*60, 220);
+                Vector2 position = new Vector2(320 - 180 + i*60, 280);
                 var top = layer.CreateSprite("sb/piano/top-fill.png",OsbOrigin.BottomCentre, position - new Vector2(0, 0.075f*200));
                 var bottom = layer.CreateSprite("sb/piano/bottom-fill.png",OsbOrigin.TopCentre, position);
-                var body = layer.CreateSprite("sb/piano/body-fill.png",OsbOrigin.BottomCentre, position);
+                var body = layer.CreateSprite("sb/piano/body-fill.png",OsbOrigin.BottomCentre, position - new Vector2(0, 0.075f*200));
 
                 top.Scale(2369, 0.15);
                 bottom.Scale(2369, 0.15);
                 body.ScaleVec(2369, 0.15, 0.075);
+                body.Rotate(2369, Math.PI);
 
                 PianoNote pn1 = new PianoNote(top, bottom, body, position, true, 0.15f);
                 pn1.fadeIn(2369);
@@ -305,7 +305,7 @@ namespace StorybrewScripts{
         public void clickNoteTop(PianoNote pianoNote, int time, String notePlayed)
         {
             var texture = font.GetTexture(notePlayed);
-            var noteSprite = layer.CreateSprite(texture.Path, OsbOrigin.Centre, pianoNote.getPos() - new Vector2(0,80));
+            var noteSprite = layer.CreateSprite(texture.Path, OsbOrigin.Centre, pianoNote.getPos() - new Vector2(0,-80));
 
             noteSprite.Scale(time, 0.18);
             noteSprite.Fade(time,time+50,0,0.66);
@@ -323,7 +323,7 @@ namespace StorybrewScripts{
         public void clickNoteBottom(PianoNote pianoNote, int time, String notePlayed)
         {
             var texture = font.GetTexture(notePlayed);
-            var noteSprite = layer.CreateSprite(texture.Path, OsbOrigin.Centre, pianoNote.getPos() + new Vector2(0,110));
+            var noteSprite = layer.CreateSprite(texture.Path, OsbOrigin.Centre, pianoNote.getPos() + new Vector2(0,-80));
 
             noteSprite.Scale(time, 0.24);
             noteSprite.Fade(time,time+50,0,0.66);

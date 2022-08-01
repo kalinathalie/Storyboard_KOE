@@ -13,7 +13,7 @@ namespace StorybrewScripts{
             var bg = GetLayer("").CreateSprite(BackgroundPath, OsbOrigin.Centre);
             
             bg.Fade(1583,2526,0,0.33);
-            bg.Fade(21374,22630,0.33,0);
+            bg.Fade(42264,42578,0.33,0);
             
             bg.Scale(13, 480.0f / bitmap.Height);
             
